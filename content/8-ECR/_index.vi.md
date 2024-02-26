@@ -10,9 +10,9 @@ pre : " <b> 8. </b> "
 
 #### Dễ dàng lưu trữ, chia sẻ và triển khai phần mềm bộ chứa của bạn ở bất cứ nơi nào
 
-![ECR](/images/8-ECR/0.jpeg)
+![ECR](/aws-fcj-workshop-001/8-ECR/0.jpeg)
 
-![ECR](/images/Intro/5.png)
+![ECR](/aws-fcj-workshop-001/Intro/5.png)
 
 - Đưa images bộ chứa lên Amazon ECR mà không cần cài đặt hoặc mở rộng cơ sở hạ tầng và lấy hình ảnh bằng bất kỳ công cụ quản lý nào.
 

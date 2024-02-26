@@ -10,21 +10,21 @@ pre : " <b> 6.3 </b> "
 
     - Chọn **Create deployment group**
 
-    ![CodeDeploy](/images/6-CodeDeploy/4.png)
+    ![CodeDeploy](/aws-fcj-workshop-001/-workchop-001j-workshop-001/-workshop-001/-workshop-001/6-CodeDeploy/4.png)
 
 2. Màn hình **Create deployment group**
 
     - Mục **Deployment group name** điền **```aws-ci-cd-deploy-group```**
 
-    ![CodeDeploy](/images/6-CodeDeploy/5.png)
+    ![CodeDeploy](/aws-fcj-workshop-001/-workchop-001j-workshop-001/-workshop-001/-workshop-001/6-CodeDeploy/5.png)
 
     - Mục **Service role** chúng ta chọn **CodeDeployServiceRole**
 
-    ![CodeDeploy](/images/6-CodeDeploy/6.png)
+    ![CodeDeploy](/aws-fcj-workshop-001/-workchop-001j-workshop-001/-workshop-001/-workshop-001/6-CodeDeploy/6.png)
 
     - Mục **Deployment type** chúng ta chọn chiến thuật deploy **In-place**
 
-        ![CodeDeploy](/images/6-CodeDeploy/7.png)
+        ![CodeDeploy](/aws-fcj-workshop-001/-workchop-001j-workshop-001/-workshop-001/-workshop-001/6-CodeDeploy/7.png)
 
     - Mục **Environment configuration**
 
@@ -32,7 +32,7 @@ pre : " <b> 6.3 </b> "
 
         - **Name** : **aws-ci-cd-ec2** Đây là tên của EC2 mà chúng ta đã tạo
 
-        ![CodeDeploy](/images/6-CodeDeploy/8.png)
+        ![CodeDeploy](/aws-fcj-workshop-001/-workchop-001j-workshop-001/-workshop-001/-workshop-001/6-CodeDeploy/8.png)
 
     - Mục **Agent configuration with AWS Systems Manager**
 
@@ -40,19 +40,19 @@ pre : " <b> 6.3 </b> "
 
         - Ở phần này chúng ta đã cài đặt CodeDeploy Agent và không có nhu cầu update
 
-        ![CodeDeploy](/images/6-CodeDeploy/9.png)
+        ![CodeDeploy](/aws-fcj-workshop-001/-workchop-001j-workshop-001/-workshop-001/-workshop-001/6-CodeDeploy/9.png)
 
     - Mục **Deployment settings** 
 
         - Chọn **CodeDeployDefault.AllAtOne**
 
-        ![CodeDeploy](/images/6-CodeDeploy/10.png)
+        ![CodeDeploy](/aws-fcj-workshop-001/-workchop-001j-workshop-001/-workshop-001/-workshop-001/6-CodeDeploy/10.png)
 
     - Mục **Load balancer**
 
         - Uncheck **Enable load balancing**
 
-        ![CodeDeploy](/images/6-CodeDeploy/11.png)
+        ![CodeDeploy](/aws-fcj-workshop-001/-workchop-001j-workshop-001/-workshop-001/-workshop-001/6-CodeDeploy/11.png)
 
     - **Create deployment group**
 

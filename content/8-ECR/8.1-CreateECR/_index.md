@@ -10,7 +10,7 @@ pre: "<b>8.1 </b>"
 
     - Select **Repositories** and then choose **Create repositories**
 
-    ![ECR](/images/8-ECR/1.png)
+    ![ECR](/aws-fcj-workshop-001/8-ECR/1.png)
 
 2. In the **Create repository** screen,
 
@@ -20,4 +20,4 @@ pre: "<b>8.1 </b>"
 
     - Click on **Create repository**
 
-    ![ECR](/images/8-ECR/2.png)
+    ![ECR](/aws-fcj-workshop-001/8-ECR/2.png)

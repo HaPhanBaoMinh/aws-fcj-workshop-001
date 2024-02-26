@@ -10,7 +10,7 @@ pre: "<b>8.3 </b>"
 
    - Copy the **URI** of the repository you just created
 
-    ![ECR](/images/8-ECR/3.png)
+    ![ECR](/aws-fcj-workshop-001/8-ECR/3.png)
 
 2. Access **CodeCommit**
 
@@ -18,38 +18,38 @@ pre: "<b>8.3 </b>"
 
     - Access the repository we created **aws-ci-cd-codecommit**
 
-    ![ECR](/images/8-ECR/4.png)
+    ![ECR](/aws-fcj-workshop-001/8-ECR/4.png)
 
 3. Access the **scripts** / **pull_docker_image.sh** file
 
     - Choose **Edit**
 
-    ![ECR](/images/8-ECR/8.png)
+    ![ECR](/aws-fcj-workshop-001/8-ECR/8.png)
 
     - Replace **DOCKER_IMAGE** with the **URI** of your **ECR** repository make sure it has the **:latest** tag.
 
     - Replace **region** with the **region** of your **ECR**
 
-    ![ECR](/images/8-ECR/9.png)
+    ![ECR](/aws-fcj-workshop-001/8-ECR/9.png)
 
     - After making the changes, provide necessary information
 
     - **Commit changes**
 
-    ![ECR](/images/8-ECR/7.png)
+    ![ECR](/aws-fcj-workshop-001/8-ECR/7.png)
 
 4. Access the **scripts** / **start_docker_image.sh** file
 
     - Choose **Edit**
 
-    ![ECR](/images/8-ECR/10.png)
+    ![ECR](/aws-fcj-workshop-001/8-ECR/10.png)
 
     - Replace **DOCKER_IMAGE** with the **URI** of your **ECR** repository make sure it has the **:latest** tag.
 
-    ![ECR](/images/8-ECR/11.png)
+    ![ECR](/aws-fcj-workshop-001/8-ECR/11.png)
 
     - After making the changes, provide necessary information
 
     - **Commit changes**
 
-    ![ECR](/images/8-ECR/7.png)
+    ![ECR](/aws-fcj-workshop-001/8-ECR/7.png)

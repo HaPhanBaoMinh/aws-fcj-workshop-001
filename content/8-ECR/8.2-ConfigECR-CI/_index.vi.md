@@ -10,7 +10,7 @@ pre : " <b> 8.2 </b> "
 
    - Copy **URI** của repo vừa tạo
 
-    ![ECR](/images/8-ECR/3.png)
+    ![ECR](/aws-fcj-workshop-001/8-ECR/3.png)
 
 2. Truy cập vào **CodeCommit**
 
@@ -18,11 +18,11 @@ pre : " <b> 8.2 </b> "
 
     - Truy cập vào repo mà chúng ta đã tạo **aws-ci-cd-codecommit**
 
-    ![ECR](/images/8-ECR/4.png)
+    ![ECR](/aws-fcj-workshop-001/8-ECR/4.png)
 
     - Truy cập file **buildspec.yml**
 
-    ![ECR](/images/8-ECR/5.png)
+    ![ECR](/aws-fcj-workshop-001/8-ECR/5.png)
 
     - Chọn **Edit** 
 
@@ -30,13 +30,13 @@ pre : " <b> 8.2 </b> "
 
     - Thay đổi các **<region>** thành **ap-southeast-1**
 
-    ![ECR](/images/8-ECR/6.png)
+    ![ECR](/aws-fcj-workshop-001/8-ECR/6.png)
 
     - Sau khi thay đổi, điền 1 số thông tin cần thiết
 
     - **Commit changes**
 
-    ![ECR](/images/8-ECR/7.png)
+    ![ECR](/aws-fcj-workshop-001/8-ECR/7.png)
 
 
 

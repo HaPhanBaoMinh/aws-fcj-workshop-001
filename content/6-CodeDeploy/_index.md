@@ -10,9 +10,9 @@ pre : " <b> 6. </b> "
 
 #### Automate code deployment to maintain application uptime
 
-![CodeDeploy](/images/6-CodeDeploy/0.webp)
+![CodeDeploy](/aws-fcj-workshop-001/6-CodeDeploy/0.webp)
 
-![CodeDeploy](/images/Intro/3.png)
+![CodeDeploy](/aws-fcj-workshop-001/Intro/3.png)
 
 - Automate and consistently deploy your applications  across your development, test, and production environments.
 

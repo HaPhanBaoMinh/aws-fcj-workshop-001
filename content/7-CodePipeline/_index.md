@@ -10,9 +10,9 @@ pre : " <b> 7. </b> "
 
 #### Automate continuous delivery pipelines for fast and reliable updates
 
-![CodePipeline](/images/7-CodePipeline/0.jpeg)
+![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/0.jpeg)
 
-![CodePipeline](/images/Intro/4.jpg)
+![CodePipeline](/aws-fcj-workshop-001/Intro/4.jpg)
 
 - Model your software release process and mitigate the need to set up or provision servers.
 

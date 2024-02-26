@@ -10,6 +10,6 @@ pre : " <b> 2.1 </b> "
 
 1. Kiểm tra tài khoản AWS của bạn đã cung cấp đủ các quyền sau:
     
-    ![IAM User](/images/2-CodeCommit/4.png)
+    ![IAM User](/aws-fcj-workshop-001/2-CodeCommit/4.png)
 
 2. Tạo HTTPS Git credentials cho AWS CodeCommit

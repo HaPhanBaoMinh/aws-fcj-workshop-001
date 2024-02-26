@@ -10,10 +10,10 @@ pre : " <b> 2.1 </b> "
 
 1. Access **Security credentials**
 
-    ![Security credentials](/images/1-Prepare/1.png)
+    ![Security credentials](/aws-fcj-workshop-001/1-Prepare/1.png)
 
 2. At the **HTTPS Git credentials for AWS CodeCommit** section, select **Generate credentials** and save the credential information.
 
-    ![AWS CodeCommit credentials](/images/1-Prepare/2.png)
+    ![AWS CodeCommit credentials](/aws-fcj-workshop-001/1-Prepare/2.png)
 
-    ![AWS CodeCommit credentials](/images/1-Prepare/3.png)
+    ![AWS CodeCommit credentials](/aws-fcj-workshop-001/1-Prepare/3.png)

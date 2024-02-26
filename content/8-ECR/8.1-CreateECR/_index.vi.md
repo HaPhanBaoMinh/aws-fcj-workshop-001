@@ -10,7 +10,7 @@ pre : " <b> 8.1 </b> "
 
     - Chọn **Repositories** sau đó chọn **Create repositories**
 
-    ![ECR](/images/8-ECR/1.png)
+    ![ECR](/aws-fcj-workshop-001/8-ECR/1.png)
 
 2. Màn hình **Create repository**
 
@@ -20,6 +20,6 @@ pre : " <b> 8.1 </b> "
 
     - **Create repository**
 
-    ![ECR](/images/8-ECR/2.png)
+    ![ECR](/aws-fcj-workshop-001/8-ECR/2.png)
 
 

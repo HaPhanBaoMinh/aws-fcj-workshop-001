@@ -10,9 +10,9 @@ pre : " <b> 3.1 </b> "
 
 #### Lưu trữ mã nguồn Git riêng tư một cách an toàn và mở rộng, cộng tác trên mã nguồn
 
-![CodeCommit](/images/2-CodeCommit/0.jpeg)
+![CodeCommit](/aws-fcj-workshop-001/-workshop-001/2-CodeCommit/0.jpeg)
 
-![CodeCommit](/images/Intro/1.png)
+![CodeCommit](/aws-fcj-workshop-001/-workshop-001/Intro/1.png)
 
 - Không cần lưu trữ, bảo trì, sao lưu hoặc điều chỉnh quy mô các máy chủ kiểm soát nguồn của riêng bạn..
 

@@ -14,7 +14,7 @@ pre : " <b> 7.3 </b> "
 
     - Chọn **Create topic**
 
-    ![CodePipeline](/images/7-CodePipeline/13.png)
+    ![CodePipeline](/aws-fcj-workshop-001/-workshop-001/7-CodePipeline/13.png)
 
 2. Ở màn hình **Create topic**
 
@@ -24,7 +24,7 @@ pre : " <b> 7.3 </b> "
 
     - **Create topic**
 
-    ![CodePipeline](/images/7-CodePipeline/14.png)
+    ![CodePipeline](/aws-fcj-workshop-001/-workshop-001/7-CodePipeline/14.png)
 
 3. Truy cập **SNS**
 
@@ -32,7 +32,7 @@ pre : " <b> 7.3 </b> "
 
     - Chọn **Create subscription**
 
-    ![CodePipeline](/images/7-CodePipeline/15.png)
+    ![CodePipeline](/aws-fcj-workshop-001/-workshop-001/7-CodePipeline/15.png)
 
 4. Ở màn hình **Create subscription**
 
@@ -44,24 +44,24 @@ pre : " <b> 7.3 </b> "
 
     - **Create subscription**
 
-    ![CodePipeline](/images/7-CodePipeline/16.png)
+    ![CodePipeline](/aws-fcj-workshop-001/-workshop-001/7-CodePipeline/16.png)
 
 5. Vào gmail để xác nhận
 
-    ![CodePipeline](/images/7-CodePipeline/17.png)
+    ![CodePipeline](/aws-fcj-workshop-001/-workshop-001/7-CodePipeline/17.png)
 
 6. Gán **notification** cho **Codepipeline**
 
     - Mục **Notification name** điền **```aws-ci-cd-pipeline-noti```**
 
-    ![CodePipeline](/images/7-CodePipeline/18.png)
+    ![CodePipeline](/aws-fcj-workshop-001/-workshop-001/7-CodePipeline/18.png)
 
     - Chọn 1 số sự kiện mà bạn muốn nhận thông báo 
     
-    ![CodePipeline](/images/7-CodePipeline/19.png)
+    ![CodePipeline](/aws-fcj-workshop-001/-workshop-001/7-CodePipeline/19.png)
 
     - Phần **Targets** chọn SNS mà chúng ta đã tạo
 
-    ![CodePipeline](/images/7-CodePipeline/20.png)
+    ![CodePipeline](/aws-fcj-workshop-001/-workshop-001/7-CodePipeline/20.png)
 
     - **Submit**

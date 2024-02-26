@@ -10,9 +10,9 @@ pre : " <b> 8. </b> "
 
 #### Easily store, share, and deploy your container software anywhere
 
-![ECR](/images/8-ECR/0.jpeg)
+![ECR](/sws-fcj-workchop-001j-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/8-ECR/0.jpeg)
 
-![ECR](/images/Intro/5.png)
+![ECR](/sws-fcj-workchop-001j-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/Intro/5.png)
 
 - Push container images to Amazon ECR without installing or scaling infrastructure, and pull images using any management tool.
 

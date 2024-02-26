@@ -10,7 +10,7 @@ pre : " <b> 3.1 </b> "
 
 #### Securely host highly scalable private Git repositories and collaborate on code
 
-![CodeCBuild](/images/2-CodeCommit/0.jpeg)
+![CodeCBuild](/aws-fcj-workshop-001/2-CodeCommit/0.jpeg)
 
 - Remove the need to host, maintain, back up, or scale your own source control servers.
 

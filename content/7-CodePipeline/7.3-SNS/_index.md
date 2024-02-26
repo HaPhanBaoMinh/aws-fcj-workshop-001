@@ -14,7 +14,7 @@ pre: " <b> 7.3 </b> "
 
     - Click on **Create topic**
 
-    ![CodePipeline](/images/7-CodePipeline/13.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/13.png)
 
 2. In the **Create topic** interface
 
@@ -24,7 +24,7 @@ pre: " <b> 7.3 </b> "
 
     - Click **Create topic**
 
-    ![CodePipeline](/images/7-CodePipeline/14.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/14.png)
 
 3. Access **SNS**
 
@@ -32,7 +32,7 @@ pre: " <b> 7.3 </b> "
 
     - Click on **Create subscription**
 
-    ![CodePipeline](/images/7-CodePipeline/15.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/15.png)
 
 4. In the **Create subscription** screen
 
@@ -44,24 +44,24 @@ pre: " <b> 7.3 </b> "
 
     - Click **Create subscription**
 
-    ![CodePipeline](/images/7-CodePipeline/16.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/16.png)
 
 5. Go to your email to confirm the subscription
 
-    ![CodePipeline](/images/7-CodePipeline/17.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/17.png)
 
 6. Assign **notification** to **Codepipeline**
 
     - In the **Notification name** field, enter **```aws-ci-cd-pipeline-noti```**
 
-    ![CodePipeline](/images/7-CodePipeline/18.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/18.png)
 
     - Select the events for which you want to receive notifications
 
-    ![CodePipeline](/images/7-CodePipeline/19.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/19.png)
 
     - In the **Targets** section, choose the SNS topic we created
 
-    ![CodePipeline](/images/7-CodePipeline/20.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/20.png)
 
     - Click **Submit**

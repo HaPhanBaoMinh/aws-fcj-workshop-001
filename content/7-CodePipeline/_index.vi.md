@@ -10,9 +10,9 @@ pre : " <b> 7. </b> "
 
 #### Tự động hóa các quy trình phân phối liên tục để cung cấp các bản cập nhật nhanh chóng và ổn định
 
-![CodePipeline](/images/7-CodePipeline/0.jpeg)
+![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/0.jpeg)
 
-![CodePipeline](/images/Intro/4.jpg)
+![CodePipeline](/aws-fcj-workshop-001/Intro/4.jpg)
 
 - Lập mô hình quy trình phát hành phần mềm của bạn và giảm thiểu công sức thiết lập hoặc cung cấp máy chủ.
 

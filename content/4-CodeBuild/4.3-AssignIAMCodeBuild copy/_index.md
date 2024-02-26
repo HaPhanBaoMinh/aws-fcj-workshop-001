@@ -10,7 +10,7 @@ pre: "<b> 4.3 </b>"
 
 1. Access **CodeCBuild** and select **Service role**.
 
-    ![CodeCBuild](/images/3-CodeBuild/11.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/11.png)
 
 2. You will be directed to the service role of CodeBuild.
 
@@ -18,14 +18,14 @@ pre: "<b> 4.3 </b>"
 
    - Select **Attach policies**.
 
-    ![CodeCBuild](/images/3-CodeBuild/12.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/12.png)
 
     - Search and select **IAM_CODEDBUILD_CICD** that we created.
 
     - Click **Add permissions**.
 
-    ![CodeCBuild](/images/3-CodeBuild/13.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/13.png)
 
 3. Policy added successfully.
 
-    ![CodeCBuild](/images/3-CodeBuild/14.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/14.png)

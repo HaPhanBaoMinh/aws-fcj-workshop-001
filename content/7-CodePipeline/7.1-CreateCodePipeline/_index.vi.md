@@ -12,7 +12,7 @@ pre : " <b> 7.1 </b> "
 
     - Chọn **Pipelines** sau đó chọn **Create pipeline**
 
-    ![CodePipeline](/images/7-CodePipeline/1.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/1.png)
 
 2. Ở màn hình **Create new pipeline**
 
@@ -22,7 +22,7 @@ pre : " <b> 7.1 </b> "
 
     - **Next**
 
-    ![CodePipeline](/images/7-CodePipeline/2.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/2.png)
 
     - **Step 2: Add source stage**
 
@@ -34,7 +34,7 @@ pre : " <b> 7.1 </b> "
 
     - **Next**
 
-    ![CodePipeline](/images/7-CodePipeline/3.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/3.png)
 
     - **Step 3: Add build stage**
 
@@ -46,7 +46,7 @@ pre : " <b> 7.1 </b> "
 
     - **Next**
 
-    ![CodePipeline](/images/7-CodePipeline/4.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/4.png)
 
     - **Step 4: Add deploy stage**
 
@@ -60,10 +60,10 @@ pre : " <b> 7.1 </b> "
 
     - **Next**
 
-    ![CodePipeline](/images/7-CodePipeline/5.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/5.png)
 
     - **Step 5: Review**
 
     - **Create Pipeline**
 
-    ![CodePipeline](/images/7-CodePipeline/6.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/6.png)

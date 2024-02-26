@@ -14,13 +14,13 @@ pre: "<b> 4.2 </b>"
 
     - Choose **Create policy**.
 
-    ![CodeCBuild](/images/3-CodeBuild/7.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/7.png)
 
 2. **Create policy** screen:
 
     - In the **Service** section, search for **Elastic Container Registry**.
 
-    ![CodeCBuild](/images/3-CodeBuild/8.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/8.png)
 
         {
             "Version": "2012-10-17",
@@ -44,10 +44,10 @@ pre: "<b> 4.2 </b>"
 
     - Click **Next**.
 
-    ![CodeCBuild](/images/3-CodeBuild/9.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/9.png)
 
     - For **Policy name**, enter **```IAM_CODEDBUILD_CICD```**.
 
     - Select **Create policy**.
 
-    ![CodeCBuild](/images/3-CodeBuild/10.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/10.png)

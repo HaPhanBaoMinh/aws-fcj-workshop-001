@@ -16,7 +16,7 @@ Tài liệu tham khảo [Tại đây](https://docs.aws.amazon.com/codedeploy/lat
 
         sudo yum install wget
 
-    ![EC2](/images/4-EC2/14.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/14.png)
 
 
 2. Di chuyển tới **home directory**
@@ -29,7 +29,7 @@ Tài liệu tham khảo [Tại đây](https://docs.aws.amazon.com/codedeploy/lat
 
     Hiện tại mình đang thực hiện trên region **ap-southeast-1**, nếu các bạn thực hiện trên region khác thì có thể tham khảo link ở đầu page để có được thông tin cài đặt của region đó
 
-    ![EC2](/images/4-EC2/15.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/15.png)
 
     Sau khi cài đặt các bạn có thể thấy đã có file **install**
 
@@ -42,7 +42,7 @@ Tài liệu tham khảo [Tại đây](https://docs.aws.amazon.com/codedeploy/lat
 
     Cài đặt thành công
 
-    ![EC2](/images/4-EC2/16.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/16.png)
 
 5. Kiểm tra trạng thái của CodeDeploy Agent
 
@@ -50,4 +50,4 @@ Tài liệu tham khảo [Tại đây](https://docs.aws.amazon.com/codedeploy/lat
 
     Như vậy là CodeDeploy Agent đã chạy thành công
 
-    ![EC2](/images/4-EC2/17.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/17.png)

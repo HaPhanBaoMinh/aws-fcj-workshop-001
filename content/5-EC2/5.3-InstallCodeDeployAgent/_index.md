@@ -16,7 +16,7 @@ Reference documentation [Here](https://docs.aws.amazon.com/codedeploy/latest/use
 
         sudo yum install wget
 
-    ![EC2](/images/4-EC2/14.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/14.png)
 
 2. Navigate to the **home directory**:
 
@@ -28,7 +28,7 @@ Reference documentation [Here](https://docs.aws.amazon.com/codedeploy/latest/use
 
     Currently, I am performing this in the **ap-southeast-1** region. If you are in a different region, refer to the link at the top of the page for installation instructions specific to that region.
 
-    ![EC2](/images/4-EC2/15.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/15.png)
 
     After installation, you will see the **install** file.
 
@@ -40,7 +40,7 @@ Reference documentation [Here](https://docs.aws.amazon.com/codedeploy/latest/use
 
     Installation successful.
 
-    ![EC2](/images/4-EC2/16.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/16.png)
 
 5. Check the status of the CodeDeploy Agent:
 
@@ -48,4 +48,4 @@ Reference documentation [Here](https://docs.aws.amazon.com/codedeploy/latest/use
 
     The CodeDeploy Agent is now running successfully.
 
-    ![EC2](/images/4-EC2/17.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/17.png)

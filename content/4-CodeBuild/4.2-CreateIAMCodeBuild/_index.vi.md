@@ -14,13 +14,13 @@ pre : " <b> 4.2 </b> "
 
     - Chọn **Create policy**
 
-    ![CodeCBuild](/images/3-CodeBuild/7.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/7.png)
 
 2. Màn hình **Create policy**
 
     - Phần **Service** Chúng ta tìm **Elastic Container Registry**
 
-    ![CodeCBuild](/images/3-CodeBuild/8.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/8.png)
 
         {
             "Version": "2012-10-17",
@@ -44,13 +44,13 @@ pre : " <b> 4.2 </b> "
 
     - **Next**
 
-    ![CodeCBuild](/images/3-CodeBuild/9.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/9.png)
 
     - Phần **Policy name** điền **```IAM_CODEDBUILD_CICD```**
 
     - Chọn **Create policy**
 
-    ![CodeCBuild](/images/3-CodeBuild/10.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/10.png)
 
 
 

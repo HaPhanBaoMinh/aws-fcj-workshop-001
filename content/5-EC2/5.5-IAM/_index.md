@@ -10,7 +10,7 @@ pre: "<b> 5.5 </b>"
 
     - Select **Policies** and then click **Create policy**.
 
-    ![IAM](/images/4-EC2/20.png)
+    ![IAM](/aws-fcj-workshop-001/-workshop-001/-workshop-001/-workshop-001/4-EC2/20.png)
 
 2. **Create policy** screen:
 
@@ -47,11 +47,11 @@ pre: "<b> 5.5 </b>"
                     ]
             }
 
-    ![IAM](/images/4-EC2/22.png)
+    ![IAM](/aws-fcj-workshop-001/-workshop-001/-workshop-001/-workshop-001/4-EC2/22.png)
 
     - Enter the **Policy name** as **```IAM_EC2_CICD```** and click **Create policy**.
 
-    ![IAM](/images/4-EC2/23.png)
+    ![IAM](/aws-fcj-workshop-001/-workshop-001/-workshop-001/-workshop-001/4-EC2/23.png)
 
 3. Grant permissions to [EC2](https://ap-southeast-1.console.aws.amazon.com/ec2/home?region=ap-southeast-1#Instances:v=3;$case=tags:true%5C,client:false;$regex=tags:false%5C,client:false)
 
@@ -63,7 +63,7 @@ pre: "<b> 5.5 </b>"
 
     - Choose **Modify IAM role**.
 
-    ![EC2](/images/4-EC2/24.png)
+    ![EC2](/aws-fcj-workshop-001/-workshop-001/-workshop-001/-workshop-001/4-EC2/24.png)
 
 4. **Modify IAM role**:
 
@@ -71,4 +71,4 @@ pre: "<b> 5.5 </b>"
 
     - Click **Update IAM role**.
 
-    ![EC2](/images/4-EC2/25.png)
+    ![EC2](/aws-fcj-workshop-001/-workshop-001/-workshop-001/-workshop-001/4-EC2/25.png)

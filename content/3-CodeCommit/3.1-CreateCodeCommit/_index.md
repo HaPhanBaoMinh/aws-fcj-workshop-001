@@ -12,20 +12,20 @@ pre: "<b> 3.1 </b>"
 
     - Access **CodeCommit**
 
-    ![CodeCommit](/images/2-CodeCommit/1.png)
+    ![CodeCommit](/aws-fcj-workshop-001/2-CodeCommit/1.png)
 
 2. Enter **```aws-ci-cd-codecommit```** for the **repository** name and select **Create**.
 
-   ![CodeCommit](/images/2-CodeCommit/2.png)
+   ![CodeCommit](/aws-fcj-workshop-001/2-CodeCommit/2.png)
 
 3. Complete the repository creation.
 
-    ![CodeCommit](/images/2-CodeCommit/3.png)
+    ![CodeCommit](/aws-fcj-workshop-001/2-CodeCommit/3.png)
 
 4. Perform a code **push** to **CodeCommit** using the created **Credentials**.
 
-    ![CodeCommit](/images/2-CodeCommit/4.png)
+    ![CodeCommit](/aws-fcj-workshop-001/2-CodeCommit/4.png)
 
 5. Successful code push.
 
-    ![CodeCommit](/images/2-CodeCommit/5.png)
+    ![CodeCommit](/aws-fcj-workshop-001/2-CodeCommit/5.png)

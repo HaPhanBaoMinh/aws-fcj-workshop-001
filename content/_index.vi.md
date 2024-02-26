@@ -8,7 +8,7 @@ pre: " <b> 1. </b> "
 
 ## Introduction to the Lab: Implementing CI/CD Pipeline Using AWS Services
 
-![Prepare](/images/1-Prepare/8.png)
+![Prepare](/aws-fcj-workshop-001/1-Prepare/8.png)
 
 ### 1. Overview
 

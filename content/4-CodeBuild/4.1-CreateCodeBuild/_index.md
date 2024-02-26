@@ -10,7 +10,7 @@ pre: "<b> 4.1 </b>"
 
 1. Navigate to **CodeBuild**, select **Build projects**, then choose **Create project**.
 
-    ![CodeCBuild](/images/3-CodeBuild/1.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/1.png)
 
 2. In the **Create build project** interface:
 
@@ -18,7 +18,7 @@ pre: "<b> 4.1 </b>"
 
 3. **Source** Section
 
-    ![CodeCBuild](/images/3-CodeBuild/2.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/2.png)
 
     - **Source provider**: AWS CodeCommit
 
@@ -28,19 +28,19 @@ pre: "<b> 4.1 </b>"
 
 4. **Environment** Section
 
-    ![CodeCBuild](/images/3-CodeBuild/3.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/3.png)
 
     - For **Service role**, select **New service role** to let AWS create a new service role for us.
 
 5. **Buildspec** Section
 
-    ![CodeCBuild](/images/3-CodeBuild/4.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/4.png)
 
     - Select **Use a buildspec file**, so **CodeBuild** will read the **buildspec.yml** file from **CodeCommit**.
 
 6. **Logs** Section
 
-    ![CodeCBuild](/images/3-CodeBuild/5.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/5.png)
 
     - Choose **CloudWatch logs - optional**.
 
@@ -48,4 +48,4 @@ pre: "<b> 4.1 </b>"
 
 7. Complete the **build project**.
 
-    ![CodeCBuild](/images/3-CodeBuild/6.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/6.png)

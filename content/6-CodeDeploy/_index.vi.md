@@ -10,9 +10,9 @@ pre : " <b> 6. </b> "
 
 #### Tự động hóa việc triển khai mã để duy trì thời gian hoạt động của ứng dụng
 
-![CodeDeploy](/images/6-CodeDeploy/0.webp)
+![CodeDeploy](/aws-fcj-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/6-CodeDeploy/0.webp)
 
-![CodeDeploy](/images/Intro/3.png)
+![CodeDeploy](/aws-fcj-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/Intro/3.png)
 
 - Tự động hóa và triển khai nhất quán các ứng dụng trên nhiều môi trường phát triển, kiểm thử và sản xuất của bạn.
 

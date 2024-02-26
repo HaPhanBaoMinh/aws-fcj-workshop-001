@@ -10,7 +10,7 @@ pre: "<b>8.2 </b>"
 
    - Copy the **URI** of the repository you just created
 
-    ![ECR](/images/8-ECR/3.png)
+    ![ECR](/aws-fcj-workshop-001/8-ECR/3.png)
 
 2. Access **CodeCommit**
 
@@ -18,11 +18,11 @@ pre: "<b>8.2 </b>"
 
     - Access the repository we created **aws-ci-cd-codecommit**
 
-    ![ECR](/images/8-ECR/4.png)
+    ![ECR](/aws-fcj-workshop-001/8-ECR/4.png)
 
     - Access the **buildspec.yml** file
 
-    ![ECR](/images/8-ECR/5.png)
+    ![ECR](/aws-fcj-workshop-001/8-ECR/5.png)
 
     - Choose **Edit**
 
@@ -30,10 +30,10 @@ pre: "<b>8.2 </b>"
 
     - Replace all **<region>** placeholders with **ap-southeast-1**
 
-    ![ECR](/images/8-ECR/6.png)
+    ![ECR](/aws-fcj-workshop-001/8-ECR/6.png)
 
     - After making the changes, provide necessary information
 
     - **Commit changes**
 
-    ![ECR](/images/8-ECR/7.png)
+    ![ECR](/aws-fcj-workshop-001/8-ECR/7.png)

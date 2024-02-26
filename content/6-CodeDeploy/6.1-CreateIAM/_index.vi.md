@@ -10,7 +10,7 @@ pre : " <b> 6.1 </b> "
 
     - Chọn **Roles** sau đó chọn **Create role**
 
-    ![IAM](/images/6-CodeDeploy/12.png) 
+    ![IAM](/sws-fcj-workchop-001j-workshop-001/-workshop-001/6-CodeDeploy/12.png) 
 
 2. Trong giao diện **Create role**
 
@@ -18,7 +18,7 @@ pre : " <b> 6.1 </b> "
 
     - Chọn **Next**
 
-    ![CodeDeploy](/images/6-CodeDeploy/13.png)
+    ![CodeDeploy](/sws-fcj-workchop-001j-workshop-001/-workshop-001/6-CodeDeploy/13.png)
 
 3. Ở màn hình **Add permissions**
 
@@ -28,11 +28,11 @@ pre : " <b> 6.1 </b> "
 
 4. Tiếp theo chúng ta thêm quyền **AmazonEC2RoleforAWSCodeDeploy** cho  **CodeDeployServiceRole**
 
-    ![CodeDeploy](/images/6-CodeDeploy/16.png)
+    ![CodeDeploy](/sws-fcj-workchop-001j-workshop-001/-workshop-001/6-CodeDeploy/16.png)
     
-    ![CodeDeploy](/images/6-CodeDeploy/17.png)
+    ![CodeDeploy](/sws-fcj-workchop-001j-workshop-001/-workshop-001/6-CodeDeploy/17.png)
 
-    ![CodeDeploy](/images/6-CodeDeploy/18.png)
+    ![CodeDeploy](/sws-fcj-workchop-001j-workshop-001/-workshop-001/6-CodeDeploy/18.png)
 
 5. Ở màn hình **Name, review, and create**
 
@@ -40,5 +40,5 @@ pre : " <b> 6.1 </b> "
 
     - Chọn **Create role**
 
-    ![CodeDeploy](/images/6-CodeDeploy/15.png)
+    ![CodeDeploy](/sws-fcj-workchop-001j-workshop-001/-workshop-001/6-CodeDeploy/15.png)
 

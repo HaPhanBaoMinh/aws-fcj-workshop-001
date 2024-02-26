@@ -1,1 +1,1 @@
-![Minion](https://octodex.github.com/images/minion.png)
+![Minion](https://octodex.github.com/aws-fcj-workshop-001/minion.png)

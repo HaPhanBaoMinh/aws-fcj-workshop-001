@@ -10,4 +10,4 @@ pre : " <b> 2. </b> "
 
 1. Kiểm tra tài khoản AWS của bạn đã cung cấp đủ các quyền sau:
     
-    ![IAM User](/images/1-Prepare/7.png)
+    ![IAM User](/aws-fcj-workshop-001/1-Prepare/7.png)

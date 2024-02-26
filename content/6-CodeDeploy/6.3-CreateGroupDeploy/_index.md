@@ -10,21 +10,21 @@ pre: "<b>6.3 </b>"
 
     - Click **Create deployment group**.
 
-    ![CodeDeploy](/images/6-CodeDeploy/4.png)
+    ![CodeDeploy](/aws-fcj-workshop-001/6-CodeDeploy/4.png)
 
 2. In the **Create deployment group** screen:
 
     - Enter **Deployment group name** as **```aws-ci-cd-deploy-group```**.
 
-    ![CodeDeploy](/images/6-CodeDeploy/5.png)
+    ![CodeDeploy](/aws-fcj-workshop-001/6-CodeDeploy/5.png)
 
     - Under **Service role**, select **CodeDeployServiceRole**.
 
-    ![CodeDeploy](/images/6-CodeDeploy/6.png)
+    ![CodeDeploy](/aws-fcj-workshop-001/6-CodeDeploy/6.png)
 
     - For **Deployment type**, choose **In-place**.
 
-    ![CodeDeploy](/images/6-CodeDeploy/7.png)
+    ![CodeDeploy](/aws-fcj-workshop-001/6-CodeDeploy/7.png)
 
     - Under **Environment configuration**:
 
@@ -32,24 +32,24 @@ pre: "<b>6.3 </b>"
 
         - **Name**: **aws-ci-cd-ec2** This is the name of the EC2 instance we created.
 
-    ![CodeDeploy](/images/6-CodeDeploy/8.png)
+    ![CodeDeploy](/aws-fcj-workshop-001/6-CodeDeploy/8.png)
 
     - For **Agent configuration with AWS Systems Manager**:
 
         - Select **Never** for **Install AWS CodeDeploy Agent**. We have already installed the CodeDeploy Agent and do not need updates at this time.
 
-    ![CodeDeploy](/images/6-CodeDeploy/9.png)
+    ![CodeDeploy](/aws-fcj-workshop-001/6-CodeDeploy/9.png)
 
     - Under **Deployment settings**:
 
         - Choose **CodeDeployDefault.AllAtOnce**.
 
-    ![CodeDeploy](/images/6-CodeDeploy/10.png)
+    ![CodeDeploy](/aws-fcj-workshop-001/6-CodeDeploy/10.png)
 
     - For **Load balancer**:
 
         - Uncheck **Enable load balancing**.
 
-    ![CodeDeploy](/images/6-CodeDeploy/11.png)
+    ![CodeDeploy](/aws-fcj-workshop-001/6-CodeDeploy/11.png)
 
     - Click **Create deployment group**.

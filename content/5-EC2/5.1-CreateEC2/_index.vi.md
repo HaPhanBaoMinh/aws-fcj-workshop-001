@@ -12,11 +12,11 @@ pre : " <b> 5.1 </b> "
 
     - Chọn **Launch instances**
 
-    ![EC2](/images/4-EC2/1.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/1.png)
 
 2. Mục **Name and tags** của instance chúng ta nhập **```aws-ci-cd-ec2```**
 
-    ![EC2](/images/4-EC2/2.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/2.png)
 
 3. Thực hiện chọn **AMI**
 
@@ -26,7 +26,7 @@ pre : " <b> 5.1 </b> "
 
     - Chọn **AMI**
 
-    ![EC2](/images/4-EC2/3.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/3.png)
 
 4. Thực hiện tạo **Key pair**
 
@@ -40,14 +40,14 @@ pre : " <b> 5.1 </b> "
 
     - Chọn **Create key pair**
 
-    ![EC2](/images/4-EC2/5.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/5.png)
 
-    ![EC2](/images/4-EC2/6.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/6.png)
 
 
 5. Thực hiện chọn **Instance type**
 
-    ![EC2](/images/4-EC2/4.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/4.png)
 
 6. Mục **Network settings**
 
@@ -55,9 +55,9 @@ pre : " <b> 5.1 </b> "
 
     - Chọn **Allow SSH traffic from** và **Allow HTTP traffic from the internet**
 
-    ![EC2](/images/4-EC2/7.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/7.png)
 
 7. Tiến hành **Launch instance**
 
-    ![EC2](/images/4-EC2/8.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/8.png)
 

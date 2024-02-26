@@ -12,7 +12,7 @@ Reference documentation [Here](https://www.cyberciti.biz/faq/how-to-install-dock
 
         sudo yum install docker
 
-    ![EC2](/images/4-EC2/18.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/18.png)
 
 2. Add **group membership** for **ec2-user** to execute **docker** commands without **sudo**:
 
@@ -36,6 +36,6 @@ Reference documentation [Here](https://www.cyberciti.biz/faq/how-to-install-dock
 
         sudo systemctl status docker.service
 
-    ![EC2](/images/4-EC2/19.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/19.png)
 
     If the result looks like this, Docker has been successfully started.

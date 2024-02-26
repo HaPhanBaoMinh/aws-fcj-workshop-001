@@ -12,7 +12,7 @@ Tài liệu tham khảo [Tại đây](https://www.cyberciti.biz/faq/how-to-insta
 
         sudo yum install docker
 
-    ![EC2](/images/4-EC2/18.png)
+    ![EC2](/aws-fcj-workshop-001/-workchop-001j-workshop-001/4-EC2/18.png)
 
 2. Thêm **group membership** cho **ec2-user** để có thể thực hiện các lệnh **docker** mà không cần quyền **sudo**
 
@@ -36,7 +36,7 @@ Tài liệu tham khảo [Tại đây](https://www.cyberciti.biz/faq/how-to-insta
 
         sudo systemctl status docker.service
 
-    ![EC2](/images/4-EC2/19.png)
+    ![EC2](/aws-fcj-workshop-001/-workchop-001j-workshop-001/4-EC2/19.png)
 
     Nếu kết quả như này là đã chạy docker thành công.
 

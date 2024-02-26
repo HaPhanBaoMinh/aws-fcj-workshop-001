@@ -10,7 +10,7 @@ pre : " <b> 6.1 </b> "
 
     - Select **Roles** and then click on **Create role**
 
-    ![IAM](/images/6-CodeDeploy/12.png)
+    ![IAM](/aws-fcj-workshop-001/-workshop-001/-workshop-001/6-CodeDeploy/12.png)
 
 2. In the **Create role** interface
 
@@ -18,7 +18,7 @@ pre : " <b> 6.1 </b> "
 
     - Click **Next**
 
-    ![CodeDeploy](/images/6-CodeDeploy/13.png)
+    ![CodeDeploy](/aws-fcj-workshop-001/-workshop-001/-workshop-001/6-CodeDeploy/13.png)
 
 3. In the **Add permissions** screen
 
@@ -28,11 +28,11 @@ pre : " <b> 6.1 </b> "
 
 4. Next, we add the **AmazonEC2RoleforAWSCodeDeploy** permission to the **CodeDeployServiceRole**
 
-    ![CodeDeploy](/images/6-CodeDeploy/16.png)
+    ![CodeDeploy](/aws-fcj-workshop-001/-workshop-001/-workshop-001/6-CodeDeploy/16.png)
 
-    ![CodeDeploy](/images/6-CodeDeploy/17.png)
+    ![CodeDeploy](/aws-fcj-workshop-001/-workshop-001/-workshop-001/6-CodeDeploy/17.png)
 
-    ![CodeDeploy](/images/6-CodeDeploy/18.png)
+    ![CodeDeploy](/aws-fcj-workshop-001/-workshop-001/-workshop-001/6-CodeDeploy/18.png)
 
 5. In the **Name, review, and create** screen
 
@@ -40,4 +40,4 @@ pre : " <b> 6.1 </b> "
 
     - Click **Create role**
 
-    ![CodeDeploy](/images/6-CodeDeploy/15.png)
+    ![CodeDeploy](/aws-fcj-workshop-001/-workshop-001/-workshop-001/6-CodeDeploy/15.png)

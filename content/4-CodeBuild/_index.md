@@ -10,9 +10,9 @@ pre : " <b> 4. </b> "
 
 #### Build and test code with automatic scaling
 
-![CodeCommit](/images/3-CodeBuild/0.png)
+![CodeCommit](/sws-fcj-workchop-001j-workshop-001/3-CodeBuild/0.png)
 
-![CodeCommit](/images/Intro/2.png)
+![CodeCommit](/sws-fcj-workchop-001j-workshop-001/Intro/2.png)
 
 
 - Avoid having to set up, manage, or patch your own build servers.

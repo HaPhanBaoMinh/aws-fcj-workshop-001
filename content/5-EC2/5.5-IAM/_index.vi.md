@@ -10,7 +10,7 @@ pre : " <b> 5.5 </b> "
 
     - Chọn **Policies** sau đó chọn **Create policy**
 
-    ![IAM](/images/4-EC2/20.png)
+    ![IAM](/aws-fcj-workshop-001/4-EC2/20.png)
 
 2. Màn hình **Create policy**
 
@@ -48,11 +48,11 @@ pre : " <b> 5.5 </b> "
                         ]
                 }
 
-    ![IAM](/images/4-EC2/22.png)
+    ![IAM](/aws-fcj-workshop-001/4-EC2/22.png)
 
     - Điền tên **Policies** là **```IAM_EC2_CICD```** và chọn **Create policy**
 
-    ![IAM](/images/4-EC2/23.png)
+    ![IAM](/aws-fcj-workshop-001/4-EC2/23.png)
 
 3. Tạo **EC2 Role** và gắn **policy** vừa tạo
 
@@ -60,7 +60,7 @@ pre : " <b> 5.5 </b> "
 
     - Chọn **Create role**
 
-    ![IAM](/images/4-EC2/27.png)
+    ![IAM](/aws-fcj-workshop-001/4-EC2/27.png)
 
     1. **Step 1**
 
@@ -72,7 +72,7 @@ pre : " <b> 5.5 </b> "
 
         - **Next**
 
-        ![IAM](/images/4-EC2/28.png)
+        ![IAM](/aws-fcj-workshop-001/4-EC2/28.png)
     
     2. **Step 2**
 
@@ -80,7 +80,7 @@ pre : " <b> 5.5 </b> "
 
         - **Next**
 
-        ![IAM](/images/4-EC2/29.png)
+        ![IAM](/aws-fcj-workshop-001/4-EC2/29.png)
 
     3. **Step 3**
 
@@ -88,7 +88,7 @@ pre : " <b> 5.5 </b> "
 
         - **Create role**
 
-        ![IAM](/images/4-EC2/30.png)
+        ![IAM](/aws-fcj-workshop-001/4-EC2/30.png)
 
 
 4. Gán quyền cho [EC2](https://ap-southeast-1.console.aws.amazon.com/ec2/home?region=ap-southeast-1#Instances:v=3;$case=tags:true%5C,client:false;$regex=tags:false%5C,client:false)
@@ -101,7 +101,7 @@ pre : " <b> 5.5 </b> "
 
     - Chọn **Modify IAM role**
 
-    ![EC2](/images/4-EC2/24.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/24.png)
 
 5. **Modify IAM role**
 
@@ -109,7 +109,7 @@ pre : " <b> 5.5 </b> "
 
     - **Update IAM role**
 
-    ![EC2](/images/4-EC2/25.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/25.png)
 
 
 

@@ -8,7 +8,7 @@ pre : " <b> 2.1 </b> "
 
 1. Quay trở lại trang chủ và hãy chắc chắn rằng **Instance state**  của bạn đã ở trạng thái **Running**
 
-    ![EC2](/images/4-EC2/9.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/9.png)
 
 2. Tiến hành kết nối **SSH** tới EC2 Instance
 
@@ -18,9 +18,9 @@ pre : " <b> 2.1 </b> "
 
     - Ở màn hình **Connect to instance** chúng ta chọn **SSH client**
 
-    ![EC2](/images/4-EC2/10.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/10.png)
 
-    ![EC2](/images/4-EC2/11.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/11.png)
 
 3. Mở cửa sổ **Terminal** và tiến hành kết nối
 
@@ -34,8 +34,8 @@ pre : " <b> 2.1 </b> "
 
     Các bạn có thể lấy thông tin kết nối ở trang **Connect to instance** 
 
-    ![EC2](/images/4-EC2/12.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/12.png)
 
 4. Kết nối thành công
 
-    ![EC2](/images/4-EC2/13.png)
+    ![EC2](/aws-fcj-workshop-001/4-EC2/13.png)
