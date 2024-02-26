@@ -230,6 +230,18 @@
                 href="//localhost:1313/6-codedeploy/6.3-creategroupdeploy/"
                 />
   </url><url>
+    <loc>//localhost:1313/7-codepipeline/7.3-sns/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/7-codepipeline/7.3-sns/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/7-codepipeline/7.3-sns/"
+                />
+  </url><url>
     <loc>//localhost:1313/5-ec2/5.3-installcodedeployagent/</loc>
     <xhtml:link
                 rel="alternate"

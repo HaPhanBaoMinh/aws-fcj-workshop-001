@@ -17,3 +17,13 @@ In this lab, we will walk through the process of setting up a Continuous Integra
 ### 2. Objectives
 
 The objective of this lab is to automate the deployment process of a simple server application to an EC2 instance by deploying a CI/CD pipeline. We will utilize AWS services to manage source code, build Docker images, and deploy the application automatically.
+
+1. [Introduction](1-introduce/)
+2. [Preparation](2-prepare/)
+3. [CodeCommit](3-codecommit/)
+4. [CodeBuild](4-codebuild/)
+5. [EC2](5-ec2/)
+6. [CodeDeploy](6-codedeploy/)
+7. [CodePipeline](7-codepipeline/)
+8. [ECR](8-ecr/)
+9. [Testing](9-test/)

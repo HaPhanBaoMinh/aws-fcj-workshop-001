@@ -46,14 +46,21 @@
 	"title": "Create IAM for CodeDeploy",
 	"tags": [],
 	"description": "",
-	"content": " Access IAM\nSelect Roles and then click Create role. In the Create role interface:\nUnder Service or use case, search for and select CodeDeploy.\nClick Next.\nOn the Add permissions screen:\nBesides the Permissions policies already selected,\nUnder Set permissions boundary, search for the AmazonEC2RoleforAWSCodeDeploy policy.\nClick Next.\nOn the Name, review, and create screen:\nEnter Role name as CodeDeployServiceRole.\nClick Create role.\n"
+	"content": " We access IAM\nSelect Roles and then click on Create role In the Create role interface\nIn the Service or use case section, search for and select CodeDeploy\nClick Next\nIn the Add permissions screen\nThe Permissions policies section is preselected\nClick Next\nNext, we add the AmazonEC2RoleforAWSCodeDeploy permission to the CodeDeployServiceRole\nIn the Name, review, and create screen\nEnter Role name as CodeDeployServiceRole\nClick Create role\n"
 },
 {
 	"uri": "//localhost:1313/1-introduce/",
 	"title": "Introduce",
 	"tags": [],
 	"description": "",
-	"content": "Introduction to the Lab: Implementing CI/CD Pipeline Using AWS Services 1. Overview In this lab, we will walk through the process of setting up a Continuous Integration/Continuous Deployment (CI/CD) pipeline to deploy a simple server using AWS services including CodeCommit, CodeBuild, CodeDeploy, EC2, CodeDeploy Agent, ECR, and Docker.\n2. Objectives The objective of this lab is to automate the deployment process of a simple server application to an EC2 instance by deploying a CI/CD pipeline. We will utilize AWS services to manage source code, build Docker images, and deploy the application automatically.\n"
+	"content": "Introduction to the Lab: Implementing CI/CD Pipeline Using AWS Services 1. Overview In this lab, we will walk through the process of setting up a Continuous Integration/Continuous Deployment (CI/CD) pipeline to deploy a simple server using AWS services including CodeCommit, CodeBuild, CodeDeploy, EC2, CodeDeploy Agent, ECR, and Docker.\n2. Objectives The objective of this lab is to automate the deployment process of a simple server application to an EC2 instance by deploying a CI/CD pipeline. We will utilize AWS services to manage source code, build Docker images, and deploy the application automatically.\nIntroduction Preparation CodeCommit CodeBuild EC2 CodeDeploy CodePipeline ECR Testing "
+},
+{
+	"uri": "//localhost:1313/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": "Introduction to the Lab: Implementing CI/CD Pipeline Using AWS Services 1. Overview In this lab, we will walk through the process of setting up a Continuous Integration/Continuous Deployment (CI/CD) pipeline to deploy a simple server using AWS services including CodeCommit, CodeBuild, CodeDeploy, EC2, CodeDeploy Agent, ECR, and Docker.\n2. Objectives The objective of this lab is to automate the deployment process of a simple server application to an EC2 instance by deploying a CI/CD pipeline. We will utilize AWS services to manage source code, build Docker images, and deploy the application automatically.\nContent Introduction Preparation CodeCommit CodeBuild EC2 CodeDeploy CodePipeline ECR Testing "
 },
 {
 	"uri": "//localhost:1313/5-ec2/5.2-testconnecttoec2/",
@@ -133,6 +140,13 @@
 	"content": " Access aws-ci-cd-codedeploy in CodeDeploy that we created earlier.\nClick Create deployment group. In the Create deployment group screen:\nEnter Deployment group name as aws-ci-cd-deploy-group. Under Service role, select CodeDeployServiceRole. For Deployment type, choose In-place. Under Environment configuration:\nChoose Amazon EC2 instances.\nName: aws-ci-cd-ec2 This is the name of the EC2 instance we created.\nFor Agent configuration with AWS Systems Manager:\nSelect Never for Install AWS CodeDeploy Agent. We have already installed the CodeDeploy Agent and do not need updates at this time. Under Deployment settings:\nChoose CodeDeployDefault.AllAtOnce. For Load balancer:\nUncheck Enable load balancing. Click Create deployment group. "
 },
 {
+	"uri": "//localhost:1313/7-codepipeline/7.3-sns/",
+	"title": "Create SNS for Notifications - Optional",
+	"tags": [],
+	"description": "",
+	"content": "Create SNS for Notifications - Optional Access SNS\nSelect Topics\nClick on Create topic\nIn the Create topic interface\nChoose Standard for the type\nIn the Name field, enter AWS-CICD-TOPIC\nClick Create topic\nAccess SNS\nSelect Subscriptions\nClick on Create subscription\nIn the Create subscription screen\nChoose the topic ARN we created AWS-CICD-TOPIC in Topic ARN\nFor Protocol, select Email\nIn the Endpoint field, enter the email address where you want to receive notifications\nClick Create subscription\nGo to your email to confirm the subscription\nAssign notification to Codepipeline\nIn the Notification name field, enter aws-ci-cd-pipeline-noti Select the events for which you want to receive notifications In the Targets section, choose the SNS topic we created Click Submit "
+},
+{
 	"uri": "//localhost:1313/5-ec2/5.3-installcodedeployagent/",
 	"title": "Install CodeDeploy Agent",
 	"tags": [],
@@ -175,13 +189,6 @@
 	"content": "AWS CodeDeploy Automate code deployment to maintain application uptime Automate and consistently deploy your applications across your development, test, and production environments.\nMonitor fleet health and automatically roll back updates as necessary.\nLaunch and track your application deployments\u0026rsquo; status through the AWS Management Console or AWS Command Line Interface (CLI).\nReuse your existing setup code and integrate with your existing software release process or continuous delivery toolchain.\nUse cases Automate deployments to remove manual operations: Repeat an application deployment across different groups or instances using a file and command-based install model.\nDeploy to many hosts: Manage deployments to thousands of hosts with advanced monitoring and traffic shifting.\nUse advanced deployment techniques: Support multiple deployment types, including in-place, canary, and blue/green deployments.\nMonitor health and rollback: Configure alarms that will initiate rollbacks, and stop application deployments in progress.\n"
 },
 {
-	"uri": "//localhost:1313/",
-	"title": "Start with Amazon VPC and AWS VPN Site-to-Site",
-	"tags": [],
-	"description": "",
-	"content": "Start with Amazon VPC and AWS VPN Site-to-Site Overview In this lab, you will explore the fundamentals of Amazon VPC (Virtual Private Cloud) and AWS VPN (Virtual Private Network) Site-to-Site connections. Gain an understanding of essential concepts and features within Amazon VPC, and practice creating a basic VPC. Additionally, learn how to configure a Site-to-Site VPN to establish a connection between an on-premise environment and an AWS VPC environment.\nContent Introduction to VPC Firewall within VPC Preparation Steps Creating an EC2 Server Configuration of Site-to-Site VPN Resource Cleanup "
-},
-{
 	"uri": "//localhost:1313/7-codepipeline/",
 	"title": "CodePipeline",
 	"tags": [],
@@ -193,7 +200,7 @@
 	"title": "ECR",
 	"tags": [],
 	"description": "",
-	"content": "AWS ECR Dễ dàng lưu trữ, chia sẻ và triển khai phần mềm bộ chứa của bạn ở bất cứ nơi nào Đưa images bộ chứa lên Amazon ECR mà không cần cài đặt hoặc mở rộng cơ sở hạ tầng và lấy hình ảnh bằng bất kỳ công cụ quản lý nào.\nChia sẻ và tải xuống images một cách an toàn qua Giao thức truyền siêu văn bản bảo mật (HTTPS) với tính năng mã hóa tự động và kiểm soát truy cập.\nTruy cập và phân phối images nhanh hơn, giảm thời gian tải xuống và cải thiện tính khả dụng bằng cơ sở hạ tầng ổn định, có quy mô linh hoạt.\nUse cases Quản lý lỗ hổng phần mềm: Sử dụng Amazon Inspector - dịch vụ quản lý lỗ hổng được tích hợp chặt chẽ - để đáp ứng các yêu cầu bảo mật về tuân thủ images, từ đó tự động hóa quá trình quét đánh giá lỗ hổng và định tuyến nhãn khắc phục.\nHợp lý hóa khối lượng công việc triển khai: Xuất bản các ứng dụng trong bộ chứa chỉ với một lệnh duy nhất và dễ dàng tích hợp những môi trường tự quản lý của bạn.\nQuản lý các chính sách về vòng đời của hình ảnh: Tự động lưu các hình ảnh gần đây nhất và lưu trữ hình ảnh bạn không cần đến. Sử dụng quy tắc và gắn thẻ để nhanh chóng truy cập hình ảnh.\n"
+	"content": "AWS ECR Easily store, share, and deploy your container software anywhere Push container images to Amazon ECR without installing or scaling infrastructure, and pull images using any management tool.\nShare and download images securely over Hypertext Transfer Protocol Secure (HTTPS) with automatic encryption and access controls.\nAccess and distribute your images faster, reduce download times, and improve availability using a scalable, durable architecture.\nUse cases Manage software vulnerabilities: Meet your image compliance security requirements using the tightly integrated Amazon Inspector vulnerability management service to automate vulnerability assessment scanning and remediation ticket routing.\nStreamline your deployment workloads: Publish containerized applications with a single command and easily integrate your self-managed environments.\nManage image lifecycle policies: Automatically preserve the most recent images and archive ones you don’t need. Use rules and tagging to access images quickly.\n"
 },
 {
 	"uri": "//localhost:1313/9-test/",

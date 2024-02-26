@@ -9,24 +9,24 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Giới thiệu :: Xây dựng quy trình CI/CD với CodePipeline</title>
+    <title>Introduction :: Xây dựng quy trình CI/CD với CodePipeline</title>
 
     
-    <link href="/css/nucleus.css?1708954215" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1708954215" rel="stylesheet">
-    <link href="/css/hybrid.css?1708954215" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1708954215" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1708954215" rel="stylesheet">
-    <link href="/css/auto-complete.css?1708954215" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1708954215" rel="stylesheet">
-    <link href="/css/theme.css?1708954215" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1708954215" rel="stylesheet">
+    <link href="/css/nucleus.css?1708958335" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1708958335" rel="stylesheet">
+    <link href="/css/hybrid.css?1708958335" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1708958335" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1708958335" rel="stylesheet">
+    <link href="/css/auto-complete.css?1708958335" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1708958335" rel="stylesheet">
+    <link href="/css/theme.css?1708958335" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1708958335" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1708954215" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1708958335" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1708954215"></script>
+    <script src="/js/jquery-3.3.1.min.js?1708958335"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1708954215"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1708954215"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1708958335"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1708958335"></script>
 <script type="text/javascript">
     
         var baseurl = "\/\/localhost:1313\/\/vi";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1708954215"></script>
+<script type="text/javascript" src="/js/search.js?1708958335"></script>
 
     
   </div>
@@ -768,6 +768,34 @@
 
             
           
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/vi/7-codepipeline/7.3-sns/" title="Tạo SNS để nhận thông báo - Optional" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/vi/7-codepipeline/7.3-sns/">
+           <b> 7.3 </b> Tạo SNS để nhận thông báo - Optional
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
         
         </ul>
               
@@ -1052,12 +1080,24 @@
 </span>
 
  
-<h2 id="giới-thiệu-bài-lab-triển-khai-pipeline-cicd-sử-dụng-các-dịch-vụ-aws">Giới Thiệu Bài Lab: Triển Khai Pipeline CI/CD Sử Dụng Các Dịch Vụ AWS</h2>
+<h2 id="introduction-to-the-lab-implementing-cicd-pipeline-using-aws-services">Introduction to the Lab: Implementing CI/CD Pipeline Using AWS Services</h2>
 <p><img alt="Prepare" src="/images/1-Prepare/8.png"></p>
-<h3 id="1-tổng-quan">1. Tổng Quan</h3>
-<p>Trong bài lab này, chúng ta sẽ đi qua quá trình thiết lập một Pipeline Continuous Integration/Continuous Deployment (CI/CD) để triển khai một máy chủ đơn giản bằng cách sử dụng các dịch vụ AWS bao gồm CodeCommit, CodeBuild, CodeDeploy, EC2, CodeDeploy Agent, ECR và Docker.</p>
-<h3 id="2-mục-tiêu">2. Mục Tiêu</h3>
-<p>Mục tiêu của bài lab này là tự động hóa quá trình triển khai của một ứng dụng máy chủ đơn giản lên một EC2 bằng cách triển khai một pipeline CI/CD. Chúng ta sẽ sử dụng các dịch vụ AWS để quản lý mã nguồn, tạo Docker images và triển khai ứng dụng một cách tự động.</p>
+<h3 id="1-overview">1. Overview</h3>
+<p>In this lab, we will walk through the process of setting up a Continuous Integration/Continuous Deployment (CI/CD) pipeline to deploy a simple server using AWS services including CodeCommit, CodeBuild, CodeDeploy, EC2, CodeDeploy Agent, ECR, and Docker.</p>
+<h3 id="2-objectives">2. Objectives</h3>
+<p>The objective of this lab is to automate the deployment process of a simple server application to an EC2 instance by deploying a CI/CD pipeline. We will utilize AWS services to manage source code, build Docker images, and deploy the application automatically.</p>
+<h4 id="content">Content</h4>
+<ol>
+<li><a href="/vi/1-introduce/">Introduction</a></li>
+<li><a href="/vi/2-prepare/">Preparation</a></li>
+<li><a href="/vi/3-codecommit/">CodeCommit</a></li>
+<li><a href="/vi/4-codebuild/">CodeBuild</a></li>
+<li><a href="/vi/5-ec2/">EC2</a></li>
+<li><a href="/vi/6-codedeploy/">CodeDeploy</a></li>
+<li><a href="/vi/7-codepipeline/">CodePipeline</a></li>
+<li><a href="/vi/8-ecr/">ECR</a></li>
+<li><a href="/vi/9-test/">Testing</a></li>
+</ol>
 	
   
         
@@ -1466,6 +1506,22 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -1571,19 +1627,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1708954215"></script>
-    <script src="/js/perfect-scrollbar.min.js?1708954215"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1708954215"></script>
-    <script src="/js/jquery.sticky.js?1708954215"></script>
-    <script src="/js/featherlight.min.js?1708954215"></script>
-    <script src="/js/highlight.pack.js?1708954215"></script>
+    <script src="/js/clipboard.min.js?1708958335"></script>
+    <script src="/js/perfect-scrollbar.min.js?1708958335"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1708958335"></script>
+    <script src="/js/jquery.sticky.js?1708958335"></script>
+    <script src="/js/featherlight.min.js?1708958335"></script>
+    <script src="/js/highlight.pack.js?1708958335"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1708954215"></script>
-    <script src="/js/learn.js?1708954215"></script>
-    <script src="/js/hugo-learn.js?1708954215"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1708958335"></script>
+    <script src="/js/learn.js?1708958335"></script>
+    <script src="/js/hugo-learn.js?1708958335"></script>
 
-    <link href="/mermaid/mermaid.css?1708954215" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1708954215"></script>
+    <link href="/mermaid/mermaid.css?1708958335" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1708958335"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

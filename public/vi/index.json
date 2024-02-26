@@ -8,10 +8,10 @@
 },
 {
 	"uri": "//localhost:1313/vi/",
-	"title": "Giới thiệu",
+	"title": "Introduction",
 	"tags": [],
 	"description": "",
-	"content": "Giới Thiệu Bài Lab: Triển Khai Pipeline CI/CD Sử Dụng Các Dịch Vụ AWS 1. Tổng Quan Trong bài lab này, chúng ta sẽ đi qua quá trình thiết lập một Pipeline Continuous Integration/Continuous Deployment (CI/CD) để triển khai một máy chủ đơn giản bằng cách sử dụng các dịch vụ AWS bao gồm CodeCommit, CodeBuild, CodeDeploy, EC2, CodeDeploy Agent, ECR và Docker.\n2. Mục Tiêu Mục tiêu của bài lab này là tự động hóa quá trình triển khai của một ứng dụng máy chủ đơn giản lên một EC2 bằng cách triển khai một pipeline CI/CD. Chúng ta sẽ sử dụng các dịch vụ AWS để quản lý mã nguồn, tạo Docker images và triển khai ứng dụng một cách tự động.\n"
+	"content": "Introduction to the Lab: Implementing CI/CD Pipeline Using AWS Services 1. Overview In this lab, we will walk through the process of setting up a Continuous Integration/Continuous Deployment (CI/CD) pipeline to deploy a simple server using AWS services including CodeCommit, CodeBuild, CodeDeploy, EC2, CodeDeploy Agent, ECR, and Docker.\n2. Objectives The objective of this lab is to automate the deployment process of a simple server application to an EC2 instance by deploying a CI/CD pipeline. We will utilize AWS services to manage source code, build Docker images, and deploy the application automatically.\nContent Introduction Preparation CodeCommit CodeBuild EC2 CodeDeploy CodePipeline ECR Testing "
 },
 {
 	"uri": "//localhost:1313/vi/5-ec2/5.2-testconnecttoec2/",
@@ -145,6 +145,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Chúng ta truy cập vào aws-ci-cd-codedeploy trong CodeDeploy mà chúng ta đã tạo.\nChọn Create deployment group Màn hình Create deployment group\nMục Deployment group name điền aws-ci-cd-deploy-group Mục Service role chúng ta chọn CodeDeployServiceRole Mục Deployment type chúng ta chọn chiến thuật deploy In-place\nMục Environment configuration\nChọn Amazon EC2 instances\nName : aws-ci-cd-ec2 Đây là tên của EC2 mà chúng ta đã tạo\nMục Agent configuration with AWS Systems Manager\nInstall AWS CodeDeploy Agent chúng ta chọn Never\nỞ phần này chúng ta đã cài đặt CodeDeploy Agent và không có nhu cầu update\nMục Deployment settings\nChọn CodeDeployDefault.AllAtOne Mục Load balancer\nUncheck Enable load balancing Create deployment group\n"
+},
+{
+	"uri": "//localhost:1313/vi/7-codepipeline/7.3-sns/",
+	"title": "Tạo SNS để nhận thông báo - Optional",
+	"tags": [],
+	"description": "",
+	"content": "Tạo SNS để nhận thông báo - Optional Truy cập SNS\nChọn Topics\nChọn Create topic\nỞ màn hình Create topic\nType chọn Standard\nMục Name chọn AWS-CICD-TOPIC\nCreate topic\nTruy cập SNS\nChọn Subscriptions\nChọn Create subscription\nỞ màn hình Create subscription\nỞ Topic ARN chọn topic ARN mà chúng ta đã tạo AWS-CICD-TOPIC\nMục Protocol chọn Email\nMục Endpoint điền email bạn muốn nhận thông báo\nCreate subscription\nVào gmail để xác nhận\nGán notification cho Codepipeline\nMục Notification name điền aws-ci-cd-pipeline-noti Chọn 1 số sự kiện mà bạn muốn nhận thông báo Phần Targets chọn SNS mà chúng ta đã tạo Submit "
 },
 {
 	"uri": "//localhost:1313/vi/5-ec2/5.4-installdocker/",
