@@ -1,24 +1,20 @@
 ---
-title : "Bắt đầu với Amazon VPC và AWS VPN Site to Site"
+title : "Giới thiệu"
 date :  "`r Sys.Date()`" 
-weight : 1 
+weight : 1
 chapter : false
+pre : " <b> 1. </b> "
 ---
 
-# Bắt đầu với Amazon VPC và AWS VPN Site to Site
+## Giới Thiệu Bài Lab: Triển Khai Pipeline CI/CD Sử Dụng Các Dịch Vụ AWS
 
-#### Tổng quan
+![Prepare](/images/1-Prepare/8.png)
 
-Trong bài lab này, bạn sẽ tìm hiểu các khái niệm cơ bản và thực hành về Amazon VPC ( Virtual Private Networking ). Tìm hiểu các khái niệm chính, các tính năng trong Amazon VPC. Thực hành tạo VPC cơ bản và thực hiện cấu hình Site to Site VPN để kết nối môi trường on-premise tới môi trường VPC của AWS.
+### 1. Tổng Quan
 
+Trong bài lab này, chúng ta sẽ đi qua quá trình thiết lập một Pipeline Continuous Integration/Continuous Deployment (CI/CD) để triển khai một máy chủ đơn giản bằng cách sử dụng các dịch vụ AWS bao gồm CodeCommit, CodeBuild, CodeDeploy, EC2, CodeDeploy Agent, ECR và Docker.
 
-![VPC](../images/1-Introduce/serviceicon.png?featherlight=false&width=10pc)
+### 2. Mục Tiêu
 
-#### Nội dung
+Mục tiêu của bài lab này là tự động hóa quá trình triển khai của một ứng dụng máy chủ đơn giản lên một EC2 bằng cách triển khai một pipeline CI/CD. Chúng ta sẽ sử dụng các dịch vụ AWS để quản lý mã nguồn, tạo Docker images và triển khai ứng dụng một cách tự động.
 
-1. [Giới thiệu VPC](1-introduce/)
-2. [Tường lửa trong VPC](2-firewallinvpc/)
-3. [Các bước chuẩn bị](3-prerequiste/) 
-4. [Tạo EC2 Server](4-createec2server/)
-5. [Cấu hình Site-to-Site VPN](5-vpnsitetosite/)
-6. [Dọn dẹp tài nguyên](6-cleanup/)

@@ -2,424 +2,376 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/vi/</loc>
+    <loc>//localhost:1313/vi/1-introduce/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="//localhost:1313/1-introduce/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/"
+                href="//localhost:1313/vi/1-introduce/"
                 />
   </url><url>
-    <loc>/vi/1-introduce/</loc>
+    <loc>//localhost:1313/vi/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/1-introduce/"
+                href="//localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/1-introduce/"
+                href="//localhost:1313/vi/"
                 />
   </url><url>
-    <loc>/vi/2-firewallinvpc/2.1-securitygroup/</loc>
+    <loc>//localhost:1313/vi/5-ec2/5.2-testconnecttoec2/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/2-firewallinvpc/2.1-securitygroup/"
+                href="//localhost:1313/5-ec2/5.2-testconnecttoec2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/2-firewallinvpc/2.1-securitygroup/"
+                href="//localhost:1313/vi/5-ec2/5.2-testconnecttoec2/"
                 />
   </url><url>
-    <loc>/vi/1-introduce/1.1-subnets/</loc>
+    <loc>//localhost:1313/vi/4-codebuild/4.1-createcodebuild/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/1-introduce/1.1-subnets/"
+                href="//localhost:1313/4-codebuild/4.1-createcodebuild/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/1-introduce/1.1-subnets/"
+                href="//localhost:1313/vi/4-codebuild/4.1-createcodebuild/"
                 />
   </url><url>
-    <loc>/vi/4-createec2server/4.1-createec2/</loc>
+    <loc>//localhost:1313/vi/3-codecommit/3.1-createcodecommit/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4-createec2server/4.1-createec2/"
+                href="//localhost:1313/3-codecommit/3.1-createcodecommit/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4-createec2server/4.1-createec2/"
+                href="//localhost:1313/vi/3-codecommit/3.1-createcodecommit/"
                 />
   </url><url>
-    <loc>/vi/5-vpnsitetosite/5.1-createvpnenv/</loc>
+    <loc>//localhost:1313/vi/7-codepipeline/7.1-createcodepipeline/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/5-vpnsitetosite/5.1-createvpnenv/"
+                href="//localhost:1313/7-codepipeline/7.1-createcodepipeline/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/5-vpnsitetosite/5.1-createvpnenv/"
+                href="//localhost:1313/vi/7-codepipeline/7.1-createcodepipeline/"
                 />
   </url><url>
-    <loc>/vi/5-vpnsitetosite/5.2-vpnsitetosite/5.2.1-createvpgw/</loc>
+    <loc>//localhost:1313/vi/5-ec2/5.1-createec2/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/5-vpnsitetosite/5.2-vpnsitetosite/5.2.1-createvpgw/"
+                href="//localhost:1313/5-ec2/5.1-createec2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/5-vpnsitetosite/5.2-vpnsitetosite/5.2.1-createvpgw/"
+                href="//localhost:1313/vi/5-ec2/5.1-createec2/"
                 />
   </url><url>
-    <loc>/vi/3-prerequiste/3.1-createvpc/</loc>
+    <loc>//localhost:1313/vi/8-ecr/8.1-createecr/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/3-prerequiste/3.1-createvpc/"
+                href="//localhost:1313/8-ecr/8.1-createecr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/3-prerequiste/3.1-createvpc/"
+                href="//localhost:1313/vi/8-ecr/8.1-createecr/"
                 />
   </url><url>
-    <loc>/vi/5-vpnsitetosite/5.1-createvpnenv/5.1.1-createvpnvpc/</loc>
+    <loc>//localhost:1313/vi/2-prepare/2.1-gitcredentials/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/5-vpnsitetosite/5.1-createvpnenv/5.1.1-createvpnvpc/"
+                href="//localhost:1313/2-prepare/2.1-gitcredentials/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/5-vpnsitetosite/5.1-createvpnenv/5.1.1-createvpnvpc/"
+                href="//localhost:1313/vi/2-prepare/2.1-gitcredentials/"
                 />
   </url><url>
-    <loc>/vi/5-vpnsitetosite/5.2-vpnsitetosite/</loc>
+    <loc>//localhost:1313/vi/6-codedeploy/6.1-createiam/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/5-vpnsitetosite/5.2-vpnsitetosite/"
+                href="//localhost:1313/6-codedeploy/6.1-createiam/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/5-vpnsitetosite/5.2-vpnsitetosite/"
+                href="//localhost:1313/vi/6-codedeploy/6.1-createiam/"
                 />
   </url><url>
-    <loc>/vi/4-createec2server/4.2-connectec2/</loc>
+    <loc>//localhost:1313/vi/2-prepare/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4-createec2server/4.2-connectec2/"
+                href="//localhost:1313/2-prepare/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4-createec2server/4.2-connectec2/"
+                href="//localhost:1313/vi/2-prepare/"
                 />
   </url><url>
-    <loc>/vi/2-firewallinvpc/2.2-networkacls/</loc>
+    <loc>//localhost:1313/vi/8-ecr/8.2-configecr-ci/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/2-firewallinvpc/2.2-networkacls/"
+                href="//localhost:1313/8-ecr/8.2-configecr-ci/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/2-firewallinvpc/2.2-networkacls/"
+                href="//localhost:1313/vi/8-ecr/8.2-configecr-ci/"
                 />
   </url><url>
-    <loc>/vi/1-introduce/1.2-routetable/</loc>
+    <loc>//localhost:1313/vi/7-codepipeline/7.2-configcodepipeline/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/1-introduce/1.2-routetable/"
+                href="//localhost:1313/7-codepipeline/7.2-configcodepipeline/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/1-introduce/1.2-routetable/"
+                href="//localhost:1313/vi/7-codepipeline/7.2-configcodepipeline/"
                 />
   </url><url>
-    <loc>/vi/5-vpnsitetosite/5.2-vpnsitetosite/5.2.2-createcustomergw/</loc>
+    <loc>//localhost:1313/vi/2-prepare/2.2-sourcecode/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/5-vpnsitetosite/5.2-vpnsitetosite/5.2.2-createcustomergw/"
+                href="//localhost:1313/2-prepare/2.2-sourcecode/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/5-vpnsitetosite/5.2-vpnsitetosite/5.2.2-createcustomergw/"
+                href="//localhost:1313/vi/2-prepare/2.2-sourcecode/"
                 />
   </url><url>
-    <loc>/vi/5-vpnsitetosite/5.1-createvpnenv/5.1.2-createec2vpn/</loc>
+    <loc>//localhost:1313/vi/6-codedeploy/6.2-createcodedeploy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/5-vpnsitetosite/5.1-createvpnenv/5.1.2-createec2vpn/"
+                href="//localhost:1313/6-codedeploy/6.2-createcodedeploy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/5-vpnsitetosite/5.1-createvpnenv/5.1.2-createec2vpn/"
+                href="//localhost:1313/vi/6-codedeploy/6.2-createcodedeploy/"
                 />
   </url><url>
-    <loc>/vi/3-prerequiste/3.2-createsubnet/</loc>
+    <loc>//localhost:1313/vi/4-codebuild/4.2-createiamcodebuild/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/3-prerequiste/3.2-createsubnet/"
+                href="//localhost:1313/4-codebuild/4.2-createiamcodebuild/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/3-prerequiste/3.2-createsubnet/"
+                href="//localhost:1313/vi/4-codebuild/4.2-createiamcodebuild/"
                 />
   </url><url>
-    <loc>/vi/2-firewallinvpc/</loc>
+    <loc>//localhost:1313/vi/5-ec2/5.3-installcodedeployagent/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/2-firewallinvpc/"
+                href="//localhost:1313/5-ec2/5.3-installcodedeployagent/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/2-firewallinvpc/"
+                href="//localhost:1313/vi/5-ec2/5.3-installcodedeployagent/"
                 />
   </url><url>
-    <loc>/vi/3-prerequiste/</loc>
+    <loc>//localhost:1313/vi/8-ecr/8.3-configecr-cd/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/3-prerequiste/"
+                href="//localhost:1313/8-ecr/8.3-configecr-cd/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/3-prerequiste/"
+                href="//localhost:1313/vi/8-ecr/8.3-configecr-cd/"
                 />
   </url><url>
-    <loc>/vi/1-introduce/1.3-internetgateway/</loc>
+    <loc>//localhost:1313/vi/3-codecommit/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/1-introduce/1.3-internetgateway/"
+                href="//localhost:1313/3-codecommit/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/1-introduce/1.3-internetgateway/"
+                href="//localhost:1313/vi/3-codecommit/"
                 />
   </url><url>
-    <loc>/vi/3-prerequiste/3.3-createigw/</loc>
+    <loc>//localhost:1313/vi/4-codebuild/4.3-assigniamcodebuild-copy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/3-prerequiste/3.3-createigw/"
+                href="//localhost:1313/4-codebuild/4.3-assigniamcodebuild-copy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/3-prerequiste/3.3-createigw/"
+                href="//localhost:1313/vi/4-codebuild/4.3-assigniamcodebuild-copy/"
                 />
   </url><url>
-    <loc>/vi/5-vpnsitetosite/5.2-vpnsitetosite/5.2.3-createvpnconnection/</loc>
+    <loc>//localhost:1313/vi/6-codedeploy/6.3-creategroupdeploy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/5-vpnsitetosite/5.2-vpnsitetosite/5.2.3-createvpnconnection/"
+                href="//localhost:1313/6-codedeploy/6.3-creategroupdeploy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/5-vpnsitetosite/5.2-vpnsitetosite/5.2.3-createvpnconnection/"
+                href="//localhost:1313/vi/6-codedeploy/6.3-creategroupdeploy/"
                 />
   </url><url>
-    <loc>/vi/4-createec2server/4.3-natgateway/</loc>
+    <loc>//localhost:1313/vi/5-ec2/5.4-installdocker/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4-createec2server/4.3-natgateway/"
+                href="//localhost:1313/5-ec2/5.4-installdocker/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4-createec2server/4.3-natgateway/"
+                href="//localhost:1313/vi/5-ec2/5.4-installdocker/"
                 />
   </url><url>
-    <loc>/vi/2-firewallinvpc/2.3-vpc-resource-map/</loc>
+    <loc>//localhost:1313/vi/4-codebuild/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/2-firewallinvpc/2.3-vpc-resource-map/"
+                href="//localhost:1313/4-codebuild/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/2-firewallinvpc/2.3-vpc-resource-map/"
+                href="//localhost:1313/vi/4-codebuild/"
                 />
   </url><url>
-    <loc>/vi/5-vpnsitetosite/5.2-vpnsitetosite/5.2.4-configurecustomergw/</loc>
+    <loc>//localhost:1313/vi/5-ec2/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/5-vpnsitetosite/5.2-vpnsitetosite/5.2.4-configurecustomergw/"
+                href="//localhost:1313/5-ec2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/5-vpnsitetosite/5.2-vpnsitetosite/5.2.4-configurecustomergw/"
+                href="//localhost:1313/vi/5-ec2/"
                 />
   </url><url>
-    <loc>/vi/1-introduce/1.4-natgateway/</loc>
+    <loc>//localhost:1313/vi/5-ec2/5.5-iam/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/1-introduce/1.4-natgateway/"
+                href="//localhost:1313/5-ec2/5.5-iam/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/1-introduce/1.4-natgateway/"
+                href="//localhost:1313/vi/5-ec2/5.5-iam/"
                 />
   </url><url>
-    <loc>/vi/4-createec2server/4.4.-createreachabilityanalyzer/</loc>
+    <loc>//localhost:1313/vi/6-codedeploy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4-createec2server/4.4.-createreachabilityanalyzer/"
+                href="//localhost:1313/6-codedeploy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4-createec2server/4.4.-createreachabilityanalyzer/"
+                href="//localhost:1313/vi/6-codedeploy/"
                 />
   </url><url>
-    <loc>/vi/4-createec2server/</loc>
+    <loc>//localhost:1313/vi/7-codepipeline/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4-createec2server/"
+                href="//localhost:1313/7-codepipeline/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4-createec2server/"
+                href="//localhost:1313/vi/7-codepipeline/"
                 />
   </url><url>
-    <loc>/vi/3-prerequiste/3.4-cretaeroutetable/</loc>
+    <loc>//localhost:1313/vi/8-ecr/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/3-prerequiste/3.4-cretaeroutetable/"
+                href="//localhost:1313/8-ecr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/3-prerequiste/3.4-cretaeroutetable/"
+                href="//localhost:1313/vi/8-ecr/"
                 />
   </url><url>
-    <loc>/vi/5-vpnsitetosite/</loc>
+    <loc>//localhost:1313/vi/9-test/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/5-vpnsitetosite/"
+                href="//localhost:1313/9-test/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/5-vpnsitetosite/"
+                href="//localhost:1313/vi/9-test/"
                 />
   </url><url>
-    <loc>/vi/4-createec2server/4.5-eicendpoint/</loc>
+    <loc>//localhost:1313/vi/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/4-createec2server/4.5-eicendpoint/"
+                href="//localhost:1313/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/4-createec2server/4.5-eicendpoint/"
+                href="//localhost:1313/vi/categories/"
                 />
   </url><url>
-    <loc>/vi/3-prerequiste/3.5-createsecuritygroup/</loc>
+    <loc>//localhost:1313/vi/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/3-prerequiste/3.5-createsecuritygroup/"
+                href="//localhost:1313/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="/vi/3-prerequiste/3.5-createsecuritygroup/"
-                />
-  </url><url>
-    <loc>/vi/5-vpnsitetosite/5.2-vpnsitetosite/5.2.5-modifyvpn/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/5-vpnsitetosite/5.2-vpnsitetosite/5.2.5-modifyvpn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="/vi/5-vpnsitetosite/5.2-vpnsitetosite/5.2.5-modifyvpn/"
-                />
-  </url><url>
-    <loc>/vi/6-cleanup/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/6-cleanup/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="/vi/6-cleanup/"
-                />
-  </url><url>
-    <loc>/vi/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="/vi/categories/"
-                />
-  </url><url>
-    <loc>/vi/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="/vi/tags/"
+                href="//localhost:1313/vi/tags/"
                 />
   </url>
 </urlset>

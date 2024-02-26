@@ -35,7 +35,7 @@ url = "https://www.facebook.com/groups/awsstudygroupfcj"
 weight = 20
 
 [Languages.vi]
-title = "Bắt đầu với Amazon VPC và AWS VPN Site to Site"
+title = "Xây dựng quy trình CI/CD với CodePipeline"
 weight = 2
 languageName = "Tiếng Việt"
 
@@ -50,4 +50,3 @@ name = "<i class='fab fa-facebook'></i> AWS Study Group - Nhóm FB"
 identifier = "AWS Study Group FB"
 url = "https://www.facebook.com/groups/awsstudygroupfcj"
 weight = 20
-

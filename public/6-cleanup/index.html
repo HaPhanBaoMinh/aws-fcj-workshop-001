@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="en" class="js csstransforms3d">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.120.4">
+    <meta name="generator" content="Hugo 0.123.1">
     <meta name="description" content="">
 <meta name="author" content="journeyoftheaverageguy@gmail.com">
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>Clean up resources :: Start with Amazon VPC and AWS VPN Site-to-Site.</title>
+    <title>Clean up :: Start with Amazon VPC and AWS VPN Site-to-Site.</title>
 
     
-    <link href="/css/nucleus.css?1701009824" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1701009824" rel="stylesheet">
-    <link href="/css/hybrid.css?1701009824" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1701009824" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1701009824" rel="stylesheet">
-    <link href="/css/auto-complete.css?1701009824" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1701009824" rel="stylesheet">
-    <link href="/css/theme.css?1701009824" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1701009824" rel="stylesheet">
+    <link href="/css/nucleus.css?1708782741" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1708782741" rel="stylesheet">
+    <link href="/css/hybrid.css?1708782741" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1708782741" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1708782741" rel="stylesheet">
+    <link href="/css/auto-complete.css?1708782741" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1708782741" rel="stylesheet">
+    <link href="/css/theme.css?1708782741" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1708782741" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1701009824" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1708782741" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1701009824"></script>
+    <script src="/js/jquery-3.3.1.min.js?1708782741"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1701009824"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1701009824"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1708782741"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1708782741"></script>
 <script type="text/javascript">
     
-        var baseurl = "";
+        var baseurl = "\/\/localhost:1313\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1701009824"></script>
+<script type="text/javascript" src="/js/search.js?1708782741"></script>
 
     
   </div>
@@ -113,12 +113,12 @@
  
   
     
-    <li data-nav-id="/1-introduce/1.1-subnets/" title="Subnets" class="dd-item 
+    <li data-nav-id="/1-introduce/1.1-codecommit/" title="Subnets" class="dd-item 
         
         
         
         ">
-      <a href="/1-introduce/1.1-subnets/">
+      <a href="/1-introduce/1.1-codecommit/">
            <b> 1.1 </b> Subnets
           
             <i class="fas fa-check read-icon"></i>
@@ -141,12 +141,12 @@
  
   
     
-    <li data-nav-id="/1-introduce/1.2-routetable/" title="Route Table" class="dd-item 
+    <li data-nav-id="/1-introduce/1.2-codebuild/" title="Route Table" class="dd-item 
         
         
         
         ">
-      <a href="/1-introduce/1.2-routetable/">
+      <a href="/1-introduce/1.2-codebuild/">
            <b> 1.2 </b> Route Table
           
             <i class="fas fa-check read-icon"></i>
@@ -169,40 +169,12 @@
  
   
     
-    <li data-nav-id="/1-introduce/1.3-internetgateway/" title="Internet Gateway" class="dd-item 
+    <li data-nav-id="/1-introduce/1.4-codepipeline/" title="NAT Gateway" class="dd-item 
         
         
         
         ">
-      <a href="/1-introduce/1.3-internetgateway/">
-           <b> 1.3 </b> Internet Gateway
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/1-introduce/1.4-natgateway/" title="NAT Gateway" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/1-introduce/1.4-natgateway/">
+      <a href="/1-introduce/1.4-codepipeline/">
            <b> 1.4 </b> NAT Gateway
           
             <i class="fas fa-check read-icon"></i>
@@ -216,6 +188,34 @@
 
             
           
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/1-introduce/1.3-codedeploy/" title="" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/1-introduce/1.3-codedeploy/">
+          
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
         
         </ul>
               
@@ -232,13 +232,13 @@
  
   
     
-    <li data-nav-id="/2-firewallinvpc/" title="Firewall in VPC" class="dd-item 
+    <li data-nav-id="/2-prepare/" title="Preparation steps" class="dd-item 
         
         
         
         ">
-      <a href="/2-firewallinvpc/">
-           <b> 2. </b> Firewall in VPC
+      <a href="/2-prepare/">
+           <b> 2. </b> Preparation steps
           
             <i class="fas fa-check read-icon"></i>
           
@@ -263,13 +263,13 @@
  
   
     
-    <li data-nav-id="/2-firewallinvpc/2.1-securitygroup/" title="Security Group" class="dd-item 
+    <li data-nav-id="/2-prepare/2.1-gitcredentials/" title="Tạo HTTPS Git credentials for AWS CodeCommit" class="dd-item 
         
         
         
         ">
-      <a href="/2-firewallinvpc/2.1-securitygroup/">
-           <b> 2.1 </b> Security Group
+      <a href="/2-prepare/2.1-gitcredentials/">
+           <b> 2.1 </b> Tạo HTTPS Git credentials for AWS CodeCommit
           
             <i class="fas fa-check read-icon"></i>
           
@@ -291,41 +291,13 @@
  
   
     
-    <li data-nav-id="/2-firewallinvpc/2.2-networkacls/" title="Network ACLs" class="dd-item 
+    <li data-nav-id="/2-prepare/2.2-sourcecode/" title="Tạo HTTPS Git credentials for AWS CodeCommit" class="dd-item 
         
         
         
         ">
-      <a href="/2-firewallinvpc/2.2-networkacls/">
-           <b> 2.2 </b> Network ACLs
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/2-firewallinvpc/2.3-vpc-resource-map/" title="VPC Resource Map" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/2-firewallinvpc/2.3-vpc-resource-map/">
-           <b> 2.3 </b> VPC Resource Map
+      <a href="/2-prepare/2.2-sourcecode/">
+           <b> 2.2 </b> Tạo HTTPS Git credentials for AWS CodeCommit
           
             <i class="fas fa-check read-icon"></i>
           
@@ -354,13 +326,65 @@
  
   
     
-    <li data-nav-id="/3-prerequiste/" title="Preparation steps" class="dd-item 
+    <li data-nav-id="/3-codecommit/" title="CodeCommit" class="dd-item 
         
         
         
         ">
-      <a href="/3-prerequiste/">
-           <b> 3. </b> Preparation steps
+      <a href="/3-codecommit/">
+           <b> 3. </b> CodeCommit
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/4-codebuild/" title="CodeBuil" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/4-codebuild/">
+           <b> 4. </b> CodeBuil
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/5-ec2/" title="EC2" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/5-ec2/">
+           <b> 5. </b> EC2
           
             <i class="fas fa-check read-icon"></i>
           
@@ -385,13 +409,13 @@
  
   
     
-    <li data-nav-id="/3-prerequiste/3.1-createvpc/" title="Create VPC" class="dd-item 
+    <li data-nav-id="/5-ec2/5.1-createec2/" title="Tạo HTTPS Git credentials for AWS CodeCommit" class="dd-item 
         
         
         
         ">
-      <a href="/3-prerequiste/3.1-createvpc/">
-           <b> 3.1 </b> Create VPC
+      <a href="/5-ec2/5.1-createec2/">
+           <b> 2.1 </b> Tạo HTTPS Git credentials for AWS CodeCommit
           
             <i class="fas fa-check read-icon"></i>
           
@@ -413,13 +437,13 @@
  
   
     
-    <li data-nav-id="/3-prerequiste/3.2-createsubnet/" title="Create Subnet" class="dd-item 
+    <li data-nav-id="/5-ec2/5.2-testconnecttoec2/" title="Tạo HTTPS Git credentials for AWS CodeCommit" class="dd-item 
         
         
         
         ">
-      <a href="/3-prerequiste/3.2-createsubnet/">
-           <b> 3.2 </b> Create Subnet
+      <a href="/5-ec2/5.2-testconnecttoec2/">
+           <b> 2.1 </b> Tạo HTTPS Git credentials for AWS CodeCommit
           
             <i class="fas fa-check read-icon"></i>
           
@@ -441,13 +465,13 @@
  
   
     
-    <li data-nav-id="/3-prerequiste/3.3-createigw/" title="Create Internet Gateway" class="dd-item 
+    <li data-nav-id="/5-ec2/5.3-installcodedeployagent/" title="Tạo HTTPS Git credentials for AWS CodeCommit" class="dd-item 
         
         
         
         ">
-      <a href="/3-prerequiste/3.3-createigw/">
-           <b> 3.3 </b> Create Internet Gateway
+      <a href="/5-ec2/5.3-installcodedeployagent/">
+           <b> 2.1 </b> Tạo HTTPS Git credentials for AWS CodeCommit
           
             <i class="fas fa-check read-icon"></i>
           
@@ -469,41 +493,13 @@
  
   
     
-    <li data-nav-id="/3-prerequiste/3.4-cretaeroutetable/" title="Create Route Table" class="dd-item 
+    <li data-nav-id="/5-ec2/5.4-installdocker/" title="Tạo HTTPS Git credentials for AWS CodeCommit" class="dd-item 
         
         
         
         ">
-      <a href="/3-prerequiste/3.4-cretaeroutetable/">
-           <b> 3.4 </b> Create Route Table
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/3-prerequiste/3.5-createsecuritygroup/" title="Create Security Group" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/3-prerequiste/3.5-createsecuritygroup/">
-           <b> 3.5 </b> Create Security Group
+      <a href="/5-ec2/5.4-installdocker/">
+           <b> 2.1 </b> Tạo HTTPS Git credentials for AWS CodeCommit
           
             <i class="fas fa-check read-icon"></i>
           
@@ -532,505 +528,39 @@
  
   
     
-    <li data-nav-id="/4-createec2server/" title="Create EC2 Server" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/4-createec2server/">
-           <b> 4. </b> Create EC2 Server
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-            
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/4-createec2server/4.1-createec2/" title="Create EC2 Server" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/4-createec2server/4.1-createec2/">
-           <b> 4.1 </b> Create EC2 Server
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/4-createec2server/4.2-connectec2/" title="Test Connection" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/4-createec2server/4.2-connectec2/">
-           <b> 4.2 </b> Test Connection
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/4-createec2server/4.3-natgateway/" title="Create NAT Gateway" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/4-createec2server/4.3-natgateway/">
-           <b> 4.3 </b> Create NAT Gateway
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/4-createec2server/4.4.-createreachabilityanalyzer/" title="Using Reachability Analyzer" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/4-createec2server/4.4.-createreachabilityanalyzer/">
-           <b> 4.4 </b> Using Reachability Analyzer
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/4-createec2server/4.5-eicendpoint/" title="Create EC2 Instance Connect Endpoint (Optional)" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/4-createec2server/4.5-eicendpoint/">
-           <b> 4.5 </b> Create EC2 Instance Connect Endpoint (Optional)
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/5-vpnsitetosite/" title="Setting Up Site-to-Site VPN Connection in AWS" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/5-vpnsitetosite/">
-           <b> 5. </b> Setting Up Site-to-Site VPN Connection in AWS
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-            
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/5-vpnsitetosite/5.1-createvpnenv/" title="Create a VPN environment" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/5-vpnsitetosite/5.1-createvpnenv/">
-           <b> 5.1 </b> Create a VPN environment
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-            
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/5-vpnsitetosite/5.1-createvpnenv/5.1.1-createvpnvpc/" title="Create VPC for VPN" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/5-vpnsitetosite/5.1-createvpnenv/5.1.1-createvpnvpc/">
-           <b> 5.1.1 </b> Create VPC for VPN
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/5-vpnsitetosite/5.1-createvpnenv/5.1.2-createec2vpn/" title="Create EC2 as a Customer Gateway" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/5-vpnsitetosite/5.1-createvpnenv/5.1.2-createec2vpn/">
-           <b> 5.1.2 </b> Create EC2 as a Customer Gateway
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/5-vpnsitetosite/5.2-vpnsitetosite/" title="Configure VPN Connection" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/5-vpnsitetosite/5.2-vpnsitetosite/">
-           <b> 5.2 </b> Configure VPN Connection
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-            
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/5-vpnsitetosite/5.2-vpnsitetosite/5.2.1-createvpgw/" title="Create Virtual Private Gateway" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/5-vpnsitetosite/5.2-vpnsitetosite/5.2.1-createvpgw/">
-           <b> 5.2.1 </b> Create Virtual Private Gateway
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/5-vpnsitetosite/5.2-vpnsitetosite/5.2.2-createcustomergw/" title="Create Customer Gateway" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/5-vpnsitetosite/5.2-vpnsitetosite/5.2.2-createcustomergw/">
-           <b> 5.2.2 </b> Create Customer Gateway
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/5-vpnsitetosite/5.2-vpnsitetosite/5.2.3-createvpnconnection/" title="Create VPN Connection" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/5-vpnsitetosite/5.2-vpnsitetosite/5.2.3-createvpnconnection/">
-           <b> 5.2.3 </b> Create VPN Connection
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/5-vpnsitetosite/5.2-vpnsitetosite/5.2.4-configurecustomergw/" title="Customer Gateway Configuration" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/5-vpnsitetosite/5.2-vpnsitetosite/5.2.4-configurecustomergw/">
-           <b> 5.2.4 </b> Customer Gateway Configuration
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/5-vpnsitetosite/5.2-vpnsitetosite/5.2.5-modifyvpn/" title="Modify AWS VPN Tunnel" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/5-vpnsitetosite/5.2-vpnsitetosite/5.2.5-modifyvpn/">
-           <b> 5.2.5 </b> Modify AWS VPN Tunnel
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/6-cleanup/" title="Clean up resources" class="dd-item 
+    <li data-nav-id="/6-cleanup/" title="Clean up" class="dd-item 
         
         active
         
         ">
       <a href="/6-cleanup/">
-           <b> 6. </b> Clean up resources
+           <b> 6. </b> Clean up
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/6-codedeploy/" title="CodeBuil" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/6-codedeploy/">
+           <b> 6. </b> CodeBuil
           
             <i class="fas fa-check read-icon"></i>
           
@@ -1081,7 +611,7 @@
                   
                     
                     
-                      <option id="en" value="/6-cleanup/" selected>English</option>
+                      <option id="en" value="//localhost:1313/6-cleanup/" selected>English</option>
                     
                   
               
@@ -1095,7 +625,7 @@
                   
                     
                     
-                      <option id="vi" value="/vi/6-cleanup/">Tiếng Việt</option>
+                      <option id="vi" value="//localhost:1313/vi/6-cleanup/">Tiếng Việt</option>
                     
                   
               
@@ -1179,7 +709,7 @@
             
           
           
-            <a href='/'>Start with Amazon VPC and AWS VPN Site-to-Site</a> > Clean up resources
+            <a href='/'>Start with Amazon VPC and AWS VPN Site-to-Site</a> > Clean up
           
         
           
@@ -1190,18 +720,7 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents">
-  <ul>
-    <li><a href="#clean-up-resources">Clean up resources</a>
-      <ul>
-        <li><a href="#terminate-ec2-instances">Terminate EC2 Instances</a></li>
-        <li><a href="#remove-nat-gateway-and-elastic-ip-address">Remove NAT Gateway and Elastic IP Address</a></li>
-        <li><a href="#delete-elastic-ip-address">Delete Elastic IP Address</a></li>
-        <li><a href="#delete-in-the-following-order">Delete in the following order:</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+<nav id="TableOfContents"></nav>
     </div>
 </div>
 
@@ -1217,7 +736,7 @@
           
             <h1>
               
-              Clean up resources
+              Clean up
             </h1>
           
 
@@ -1225,120 +744,7 @@
 
 
 
-	<h2 id="clean-up-resources">Clean up resources</h2>
-<p>We will proceed to delete the resources in the following order:</p>
-<h3 id="terminate-ec2-instances">Terminate EC2 Instances</h3>
-<ol>
-<li>
-<p>Terminate EC2 instance:</p>
-<ul>
-<li>Access the Amazon EC2 console at <a href="https://console.aws.amazon.com/ec2/">EC2</a>.</li>
-<li>On the left navigation bar, select &ldquo;Instances.&rdquo;</li>
-<li>Select all EC2 instances related to the lab.</li>
-<li>Select <strong>Instance state</strong>.</li>
-<li>Select <strong>Terminate instance</strong>.</li>
-</ul>
-<p><img src="/images/16/0001.png?featherlight=false&amp;width=90pc" alt="Terminate EC2"></p>
-</li>
-<li>
-<p>Confirm termination.</p>
-<p><img src="/images/16/0002.png?featherlight=false&amp;width=90pc" alt="Confirm Termination"></p>
-</li>
-</ol>
-<h3 id="remove-nat-gateway-and-elastic-ip-address">Remove NAT Gateway and Elastic IP Address</h3>
-<ul>
-<li>
-<p>Remove NAT Gateway and Elastic IP Address. AWS charges for wasted EIPs, so you need to double-check to avoid unintended charges.</p>
-</li>
-<li>
-<p>Visit the Amazon VPC console page at <a href="https://console.aws.amazon.com/vpc/">VPC</a>.</p>
-</li>
-<li>
-<p>On the left navigation bar, click &ldquo;NAT Gateway.&rdquo;</p>
-</li>
-<li>
-<p>Select NAT Gateway.</p>
-</li>
-<li>
-<p>Click <strong>Action</strong>.</p>
-</li>
-<li>
-<p>Click <strong>Delete NAT Gateway</strong>.</p>
-<p><img src="/images/16/0003.png?featherlight=false&amp;width=90pc" alt="Delete NAT Gateway"></p>
-</li>
-<li>
-<p>Type &ldquo;delete.&rdquo;</p>
-</li>
-<li>
-<p>Click <strong>Delete</strong> to confirm the deletion of NAT Gateway.</p>
-<p><img src="/images/16/0004.png?featherlight=false&amp;width=90pc" alt="Confirm Deletion">
-<img src="/images/16/0005.png?featherlight=false&amp;width=90pc" alt="Confirm Deletion"></p>
-</li>
-</ul>
-<h3 id="delete-elastic-ip-address">Delete Elastic IP Address</h3>
-<ul>
-<li>
-<p>Continue to delete Elastic IP Address.</p>
-</li>
-<li>
-<p>Visit the Amazon VPC console page at <a href="https://console.aws.amazon.com/vpc/">VPC</a>.</p>
-</li>
-<li>
-<p>On the left navigation bar, click &ldquo;Elastic IP.&rdquo;</p>
-</li>
-<li>
-<p>Select the Elastic IP Address we created.</p>
-</li>
-<li>
-<p>Click <strong>Action</strong>.</p>
-</li>
-<li>
-<p>Click <strong>Release Elastic IP Address</strong>.</p>
-</li>
-<li>
-<p>Click <strong>Release</strong>.</p>
-<p><img src="/images/16/0006.png?featherlight=false&amp;width=90pc" alt="Release Elastic IP">
-<img src="/images/16/0007.png?featherlight=false&amp;width=90pc" alt="Release Elastic IP"></p>
-</li>
-</ul>
-<h4 id="delete-the-ec2-instance-connection-endpoint">Delete the EC2 Instance connection endpoint</h4>
-<ul>
-<li>Access to Endpoint transactions</li>
-<li>Select Action, select Delete VPC endpoints</li>
-<li>Enter delete
-<img src="/images/16/00020.png?featherlight=false&amp;width=90pc" alt="Create VPC"></li>
-</ul>
-<h3 id="delete-in-the-following-order">Delete in the following order:</h3>
-<ul>
-<li>
-<p>VPN Site to Site connection.</p>
-<p><img src="/images/16/0008.png?featherlight=false&amp;width=90pc" alt="VPN Site to Site">
-<img src="/images/16/0009.png?featherlight=false&amp;width=90pc" alt="VPN Site to Site"></p>
-</li>
-<li>
-<p>Virtual Private Gateway.</p>
-<p><img src="/images/16/00010.png?featherlight=false&amp;width=90pc" alt="Virtual Private Gateway">
-<img src="/images/16/00011.png?featherlight=false&amp;width=90pc" alt="Virtual Private Gateway">
-<img src="/images/16/00012.png?featherlight=false&amp;width=90pc" alt="Virtual Private Gateway">
-<img src="/images/16/00013.png?featherlight=false&amp;width=90pc" alt="Virtual Private Gateway"></p>
-</li>
-<li>
-<p>Customer Gateway.</p>
-<p><img src="/images/16/00014.png?featherlight=false&amp;width=90pc" alt="Customer Gateway">
-<img src="/images/16/00015.png?featherlight=false&amp;width=90pc" alt="Customer Gateway"></p>
-</li>
-<li>
-<p>VPC ASG VPN.</p>
-<p><img src="/images/16/00016.png?featherlight=false&amp;width=90pc" alt="VPC ASG VPN">
-<img src="/images/16/00017.png?featherlight=false&amp;width=90pc" alt="VPC ASG VPN"></p>
-</li>
-<li>
-<p>VPC ASG.</p>
-<p><img src="/images/16/00018.png?featherlight=false&amp;width=90pc" alt="VPC ASG">
-<img src="/images/16/00019.png?featherlight=false&amp;width=90pc" alt="VPC ASG"></p>
-</li>
-</ul>
-
+	
 
 
 
@@ -1505,53 +911,6 @@
             
         
                     
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
             
         
                     
@@ -1583,41 +942,6 @@
                     
                     
 
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
                     
             
         
@@ -1701,22 +1025,6 @@
             
         
                     
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
             
         
                     
@@ -1725,35 +1033,6 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -1771,126 +1050,8 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
                         
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
                     
                 
                 
@@ -1912,10 +1073,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/5-vpnsitetosite/5.2-vpnsitetosite/5.2.5-modifyvpn/" title="Modify AWS VPN Tunnel"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/5-ec2/5.4-installdocker/" title="Tạo HTTPS Git credentials for AWS CodeCommit"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/1-introduce/" title="Introduction" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/6-codedeploy/" title="CodeBuil" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -1925,19 +1086,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1701009824"></script>
-    <script src="/js/perfect-scrollbar.min.js?1701009824"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1701009824"></script>
-    <script src="/js/jquery.sticky.js?1701009824"></script>
-    <script src="/js/featherlight.min.js?1701009824"></script>
-    <script src="/js/highlight.pack.js?1701009824"></script>
+    <script src="/js/clipboard.min.js?1708782741"></script>
+    <script src="/js/perfect-scrollbar.min.js?1708782741"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1708782741"></script>
+    <script src="/js/jquery.sticky.js?1708782741"></script>
+    <script src="/js/featherlight.min.js?1708782741"></script>
+    <script src="/js/highlight.pack.js?1708782741"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1701009824"></script>
-    <script src="/js/learn.js?1701009824"></script>
-    <script src="/js/hugo-learn.js?1701009824"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1708782741"></script>
+    <script src="/js/learn.js?1708782741"></script>
+    <script src="/js/hugo-learn.js?1708782741"></script>
 
-    <link href="/mermaid/mermaid.css?1701009824" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1701009824"></script>
+    <link href="/mermaid/mermaid.css?1708782741" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1708782741"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

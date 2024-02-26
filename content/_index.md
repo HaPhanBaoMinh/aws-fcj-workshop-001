@@ -1,7 +1,7 @@
 ---
 title : "Start with Amazon VPC and AWS VPN Site-to-Site"
 date : "`r Sys.Date()`"
-weight : 1
+weight : 6
 chapter : false
 ---
 
