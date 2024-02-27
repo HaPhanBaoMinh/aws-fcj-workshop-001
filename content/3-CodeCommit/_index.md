@@ -3,7 +3,7 @@ title : "CodeCommit"
 date :  "`r Sys.Date()`" 
 weight : 3
 chapter : false
-pre : " <b> 3.1 </b> "
+pre : " <b> 3. </b> "
 ---
 
 ## AWS CodeCommit
