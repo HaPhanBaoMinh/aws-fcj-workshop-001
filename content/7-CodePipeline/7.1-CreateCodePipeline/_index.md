@@ -12,7 +12,7 @@ pre: "<b> 7.1 </b>"
 
     - Click **Pipelines**, then click **Create pipeline**.
 
-    ![CodePipeline](/aws-fcj-workshop-001/-workchop-001j-workshop-001/7-CodePipeline/1.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/1.png)
 
 2. In the **Create new pipeline** screen:
 
@@ -22,7 +22,7 @@ pre: "<b> 7.1 </b>"
 
     - Click **Next**.
 
-    ![CodePipeline](/aws-fcj-workshop-001/-workchop-001j-workshop-001/7-CodePipeline/2.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/2.png)
 
     - **Step 2: Add source stage**
 
@@ -34,7 +34,7 @@ pre: "<b> 7.1 </b>"
 
     - Click **Next**.
 
-    ![CodePipeline](/aws-fcj-workshop-001/-workchop-001j-workshop-001/7-CodePipeline/3.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/3.png)
 
     - **Step 3: Add build stage**
 
@@ -46,7 +46,7 @@ pre: "<b> 7.1 </b>"
 
     - Click **Next**.
 
-    ![CodePipeline](/aws-fcj-workshop-001/-workchop-001j-workshop-001/7-CodePipeline/4.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/4.png)
 
     - **Step 4: Add deploy stage**
 
@@ -60,10 +60,10 @@ pre: "<b> 7.1 </b>"
 
     - Click **Next**.
 
-    ![CodePipeline](/aws-fcj-workshop-001/-workchop-001j-workshop-001/7-CodePipeline/5.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/5.png)
 
     - **Step 5: Review**
 
     - Click **Create Pipeline**.
 
-    ![CodePipeline](/aws-fcj-workshop-001/-workchop-001j-workshop-001/7-CodePipeline/6.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/6.png)

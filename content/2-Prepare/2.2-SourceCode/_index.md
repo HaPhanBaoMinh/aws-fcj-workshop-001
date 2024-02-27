@@ -17,11 +17,11 @@ pre: "<b>2.2 </b>"
   - appspec.yml
   - buildspec.yml
 
-![Folder](/aws-fcj-workshop-001/-workchop-001j-workshop-001/1-Prepare/4.png)
+![Folder](/aws-fcj-workshop-001/1-Prepare/4.png)
 
 ##### buildspec.yml
 
-![Folder](/aws-fcj-workshop-001/-workchop-001j-workshop-001/1-Prepare/5.png)
+![Folder](/aws-fcj-workshop-001/1-Prepare/5.png)
 
 - **version**
 
@@ -71,7 +71,7 @@ pre: "<b>2.2 </b>"
 
 ##### appspec.yml
 
-![Folder](/aws-fcj-workshop-001/-workchop-001j-workshop-001/1-Prepare/6.png)
+![Folder](/aws-fcj-workshop-001/1-Prepare/6.png)
 
 - **version**
 

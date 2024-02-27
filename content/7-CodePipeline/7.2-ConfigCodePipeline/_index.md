@@ -10,17 +10,17 @@ pre: "<b>7.2 </b>"
 
 1. After creating the **CodePipeline**, you may encounter an error during the **Deploy** stage.
 
-    ![CodePipeline](/aws-fcj-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/7-CodePipeline/7.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/7.png)
 
 2. On the **aws-ci-cd-pipeline** screen, select **Edit**.
 
-    ![CodePipeline](/aws-fcj-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/7-CodePipeline/8.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/8.png)
 
 3. In the **Edit: Deploy** section, select **Edit stage**.
 
-    ![CodePipeline](/aws-fcj-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/7-CodePipeline/9.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/9.png)
 
-    ![CodePipeline](/aws-fcj-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/7-CodePipeline/10.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/10.png)
 
 4. In the edit window:
 
@@ -28,8 +28,8 @@ pre: "<b>7.2 </b>"
 
     - Select **Done**.
 
-    ![CodePipeline](/aws-fcj-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/7-CodePipeline/11.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/11.png)
 
 5. Complete the process by selecting **Save**.
 
-    ![CodePipeline](/aws-fcj-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/7-CodePipeline/12.png)
+    ![CodePipeline](/aws-fcj-workshop-001/7-CodePipeline/12.png)

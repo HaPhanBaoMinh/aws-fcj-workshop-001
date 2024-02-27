@@ -12,7 +12,7 @@ pre: "<b>6.2 </b>"
 
     - Select **Applications** and then click **Create application**.
 
-    ![CodeDeploy](/aws-fcj-workshop-001/-workshop-001/-workshop-001/6-CodeDeploy/1.png)
+    ![CodeDeploy](/aws-fcj-workshop-001/6-CodeDeploy/1.png)
 
 2. In the **Create application** interface:
 
@@ -22,8 +22,8 @@ pre: "<b>6.2 </b>"
 
     - Click **Create application**.
 
-    ![CodeDeploy](/aws-fcj-workshop-001/-workshop-001/-workshop-001/6-CodeDeploy/2.png)
+    ![CodeDeploy](/aws-fcj-workshop-001/6-CodeDeploy/2.png)
 
 3. Application created successfully.
 
-    ![CodeDeploy](/aws-fcj-workshop-001/-workshop-001/-workshop-001/6-CodeDeploy/3.png)
+    ![CodeDeploy](/aws-fcj-workshop-001/6-CodeDeploy/3.png)

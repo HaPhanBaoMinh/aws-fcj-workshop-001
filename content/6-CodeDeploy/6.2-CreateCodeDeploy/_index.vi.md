@@ -12,7 +12,7 @@ pre : " <b> 6.2 </b> "
 
     - Chọn **Applications** sau đó chọn **Create application**
 
-    ![CodeDeploy](/aws-fcj-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/6-CodeDeploy/1.png) 
+    ![CodeDeploy](/aws-fcj-workshop-001/6-CodeDeploy/1.png) 
 
 2. Trong giao diện **Create application**
 
@@ -22,9 +22,9 @@ pre : " <b> 6.2 </b> "
 
     - **Create application**.
 
-    ![CodeDeploy](/aws-fcj-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/6-CodeDeploy/2.png)
+    ![CodeDeploy](/aws-fcj-workshop-001/6-CodeDeploy/2.png)
 
 3. Tạo thành công
 
-    ![CodeDeploy](/aws-fcj-workshop-001/-workshop-001/-workshop-001/-workshop-001/-workshop-001/6-CodeDeploy/3.png)
+    ![CodeDeploy](/aws-fcj-workshop-001/6-CodeDeploy/3.png)
 
