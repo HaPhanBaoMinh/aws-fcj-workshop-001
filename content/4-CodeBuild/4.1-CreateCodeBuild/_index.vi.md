@@ -12,7 +12,7 @@ pre : " <b> 4.1 </b> "
 
     Chọn **Build projects** sau đó chọn **Create project**
 
-    ![CodeCBuild](/aws-fcj-workshop-001/-workchop-001j-workshop-001/-workshop-001/3-CodeBuild/1.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/1.png)
 
 2. Trong giao diện **Create build project**
 
@@ -20,7 +20,7 @@ pre : " <b> 4.1 </b> "
 
 3. Mục **Source**
 
-    ![CodeCBuild](/aws-fcj-workshop-001/-workchop-001j-workshop-001/-workshop-001/3-CodeBuild/2.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/2.png)
 
     - Mục **Source provider** là **AWS CodeCommit**
 
@@ -32,19 +32,19 @@ pre : " <b> 4.1 </b> "
  
 4. Mục **Environment**
 
-    ![CodeCBuild](/aws-fcj-workshop-001/-workchop-001j-workshop-001/-workshop-001/3-CodeBuild/3.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/3.png)
 
     - Phần **Service role** chúng ta chọn **New service role** để AWS tạo cho chúng ta 1 service role mới 
 
 5. Mục **Buildspec**
 
-    ![CodeCBuild](/aws-fcj-workshop-001/-workchop-001j-workshop-001/-workshop-001/3-CodeBuild/4.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/4.png)
 
     - Chúng ta chọn **Use a buildspec file** từ đó **CodeBuild** sẽ đọc file **buildspec.yml** trong **CodeCommit**
 
 6. Mục **Logs**
 
-    ![CodeCBuild](/aws-fcj-workshop-001/-workchop-001j-workshop-001/-workshop-001/3-CodeBuild/5.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/5.png)
 
     - Chọn **CloudWatch logs - optional**
 
@@ -52,5 +52,5 @@ pre : " <b> 4.1 </b> "
 
 7. Hoàn thành **build project**
 
-    ![CodeCBuild](/aws-fcj-workshop-001/-workchop-001j-workshop-001/-workshop-001/3-CodeBuild/6.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/6.png)
 

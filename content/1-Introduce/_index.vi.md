@@ -8,7 +8,7 @@ pre : " <b> 1. </b> "
 
 ## Giới Thiệu Bài Lab: Triển Khai Pipeline CI/CD Sử Dụng Các Dịch Vụ AWS
 
-![Prepare](/aws-fcj-workshop-001/-workshop-001/-workshop-001/-workshop-001/1-Prepare/8.png)
+![Prepare](/aws-fcj-workshop-001/1-Prepare/8.png)
 
 
 ### 1. Tổng Quan

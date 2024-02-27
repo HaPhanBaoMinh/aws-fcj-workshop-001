@@ -10,7 +10,7 @@ pre : " <b> 4.3 </b> "
 
 1. Truy cập **CodeCBuild** và chọn **Service role**
 
-    ![CodeCBuild](/aws-fcj-workshop-001/-workshop-001/3-CodeBuild/11.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/11.png)
 
 2. Chúng ta sẽ được chuyển tới service role của CodeBuild
 
@@ -18,14 +18,14 @@ pre : " <b> 4.3 </b> "
 
    - Chọn **Attach policies**
 
-    ![CodeCBuild](/aws-fcj-workshop-001/-workshop-001/3-CodeBuild/12.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/12.png)
 
     - Chúng ta tìm kiếm và tích chọn **IAM_CODEDBUILD_CICD** mà chúng ta đã tạo
 
     - Chọn **Add permissions**
 
-    ![CodeCBuild](/aws-fcj-workshop-001/-workshop-001/3-CodeBuild/13.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/13.png)
 
 3. Đã thêm policy thành công
 
-    ![CodeCBuild](/aws-fcj-workshop-001/-workshop-001/3-CodeBuild/14.png)
+    ![CodeCBuild](/aws-fcj-workshop-001/3-CodeBuild/14.png)

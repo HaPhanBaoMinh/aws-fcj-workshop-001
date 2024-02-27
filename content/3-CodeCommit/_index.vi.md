@@ -3,14 +3,14 @@ title : "CodeCommit"
 date :  "`r Sys.Date()`" 
 weight : 3
 chapter : false
-pre : " <b> 3.1 </b> "
+pre : " <b> 3 </b> "
 ---
 
 ## AWS CodeCommit
 
 #### Lưu trữ mã nguồn Git riêng tư một cách an toàn và mở rộng, cộng tác trên mã nguồn
 
-![CodeCommit](/aws-fcj-workshop-001/-workshop-001/2-CodeCommit/0.jpeg)
+![CodeCBuild](/aws-fcj-workshop-001/2-CodeCommit/0.jpeg)
 
 ![CodeCommit](/aws-fcj-workshop-001/-workshop-001/Intro/1.png)
 

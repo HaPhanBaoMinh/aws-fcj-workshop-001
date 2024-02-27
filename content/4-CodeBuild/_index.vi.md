@@ -10,9 +10,9 @@ pre : " <b> 4. </b> "
 
 #### Xây dựng và kiểm thử mã với khả năng điều chỉnh quy mô tự động
 
-![CodeCommit](/aws-fcj-workshop-001/-workshop-001/-workshop-001/-workchop-001j-workshop-001/3-CodeBuild/0.png)
+![CodeCommit](/aws-fcj-workshop-001/3-CodeBuild/0.png)
 
-![CodeCommit](/aws-fcj-workshop-001/-workshop-001/-workshop-001/-workchop-001j-workshop-001/Intro/2.png)
+![CodeCommit](/aws-fcj-workshop-001/Intro/2.png)
 
 - Tránh phải thiết lập, quản lý hoặc vá lỗi cho các máy chủ xây dựng riêng của bạn.
 

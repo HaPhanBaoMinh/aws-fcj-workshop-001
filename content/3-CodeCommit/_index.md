@@ -12,6 +12,8 @@ pre : " <b> 3.1 </b> "
 
 ![CodeCBuild](/aws-fcj-workshop-001/2-CodeCommit/0.jpeg)
 
+![CodeCommit](/aws-fcj-workshop-001/-workshop-001/Intro/1.png)
+
 - Remove the need to host, maintain, back up, or scale your own source control servers.
 
 - Customize user-specific access to your repositories with automatically encrypted files in transit.
